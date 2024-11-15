@@ -1,0 +1,32 @@
+[1.513s] Invoking command in '/home/interstellar/face_detect/detect_ws/build/cpp_service': CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/interstellar/face_detect/detect_ws/build/cpp_service -- -j4 -l4
+[2.141s] [35m[1mConsolidate compiler generated dependencies of target server_cpp[0m
+[2.175s] [35m[1mConsolidate compiler generated dependencies of target client_cpp[0m
+[2.546s] [ 25%] [32mBuilding CXX object CMakeFiles/server_cpp.dir/src/server_cpp.cpp.o[0m
+[2.597s] [ 50%] [32mBuilding CXX object CMakeFiles/client_cpp.dir/src/client_cpp.cpp.o[0m
+[57.803s] [ 75%] [32m[1mLinking CXX executable client_cpp[0m
+[59.084s] [100%] [32m[1mLinking CXX executable server_cpp[0m
+[62.820s] [100%] Built target server_cpp
+[62.822s] [100%] Built target client_cpp
+[62.879s] Invoked command in '/home/interstellar/face_detect/detect_ws/build/cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/interstellar/face_detect/detect_ws/build/cpp_service -- -j4 -l4
+[63.130s] Invoking command in '/home/interstellar/face_detect/detect_ws/build/cpp_service': CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service:/opt/ros/humble /usr/bin/cmake --install /home/interstellar/face_detect/detect_ws/build/cpp_service
+[63.181s] -- Install configuration: ""
+[63.192s] -- Installing: /home/interstellar/face_detect/detect_ws/install/cpp_service/lib/cpp_service/client_cpp
+[63.257s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/cpp_service/lib/cpp_service/client_cpp" to ""
+[63.268s] -- Installing: /home/interstellar/face_detect/detect_ws/install/cpp_service/lib/cpp_service/server_cpp
+[63.326s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/cpp_service/lib/cpp_service/server_cpp" to ""
+[63.326s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/ament_index/resource_index/package_run_dependencies/cpp_service
+[63.327s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/ament_index/resource_index/parent_prefix_path/cpp_service
+[63.327s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/ament_prefix_path.sh
+[63.329s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/ament_prefix_path.dsv
+[63.330s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/path.sh
+[63.331s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/path.dsv
+[63.331s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.bash
+[63.331s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.sh
+[63.331s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.zsh
+[63.335s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.dsv
+[63.338s] -- Installing: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/package.dsv
+[63.345s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/ament_index/resource_index/packages/cpp_service
+[63.346s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig.cmake
+[63.346s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig-version.cmake
+[63.347s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/package.xml
+[63.360s] Invoked command in '/home/interstellar/face_detect/detect_ws/build/cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service:/opt/ros/humble /usr/bin/cmake --install /home/interstellar/face_detect/detect_ws/build/cpp_service

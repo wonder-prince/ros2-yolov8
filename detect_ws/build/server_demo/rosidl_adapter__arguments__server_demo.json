@@ -1,0 +1,6 @@
+{
+  "package_name": "server_demo",
+  "non_idl_tuples": [
+    "/home/interstellar/face_detect/detect_ws/src/server_demo:srv/Myimage.srv"
+  ]
+}

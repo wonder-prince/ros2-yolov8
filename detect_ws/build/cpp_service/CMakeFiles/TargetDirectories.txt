@@ -1,0 +1,11 @@
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/uninstall.dir
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/cpp_service_uninstall.dir
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/server_cpp.dir
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/client_cpp.dir
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/test.dir
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/edit_cache.dir
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/rebuild_cache.dir
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/list_install_components.dir
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/install.dir
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/install/local.dir
+/home/interstellar/face_detect/detect_ws/build/cpp_service/CMakeFiles/install/strip.dir

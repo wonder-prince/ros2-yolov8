@@ -1,0 +1,911 @@
+[0.000000] (-) TimerEvent: {}
+[0.002744] (server_demo) JobQueued: {'identifier': 'server_demo', 'dependencies': OrderedDict()}
+[0.002937] (cpp_service) JobQueued: {'identifier': 'cpp_service', 'dependencies': OrderedDict([('server_demo', '/home/interstellar/face_detect/detect_ws/install/server_demo')])}
+[0.003028] (py_server) JobQueued: {'identifier': 'py_server', 'dependencies': OrderedDict([('server_demo', '/home/interstellar/face_detect/detect_ws/install/server_demo')])}
+[0.007801] (server_demo) JobStarted: {'identifier': 'server_demo'}
+[0.099699] (-) TimerEvent: {}
+[0.105122] (server_demo) JobProgress: {'identifier': 'server_demo', 'progress': 'cmake'}
+[0.115354] (server_demo) JobProgress: {'identifier': 'server_demo', 'progress': 'build'}
+[0.118621] (server_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/interstellar/face_detect/detect_ws/build/server_demo', '--', '-j4', '-l4'], 'cwd': '/home/interstellar/face_detect/detect_ws/build/server_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.132.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'interstellar'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.132.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/interstellar/face_detect/detect_ws/install/server_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/interstellar'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/interstellar/face_detect/detect_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.132.1:7890/'), ('COLCON_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'interstellar'), ('ALL_PROXY', 'socks://192.168.132.1:7890/'), ('http_proxy', 'http://192.168.132.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'interstellar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/interstellar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1358,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1358'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.132.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76b133e7_124c_4052_a237_fb3d118f6fef'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SL34W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ecaa86bd1e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install/cpp_service:/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/interstellar/face_detect/detect_ws/build/server_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.132.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.132.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install/cpp_service:/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble')]), 'shell': False}
+[0.203065] (-) TimerEvent: {}
+[0.305589] (-) TimerEvent: {}
+[0.406758] (-) TimerEvent: {}
+[0.510356] (-) TimerEvent: {}
+[0.613140] (-) TimerEvent: {}
+[0.715150] (-) TimerEvent: {}
+[0.816150] (-) TimerEvent: {}
+[0.919667] (-) TimerEvent: {}
+[1.020641] (-) TimerEvent: {}
+[1.121777] (-) TimerEvent: {}
+[1.222755] (-) TimerEvent: {}
+[1.323911] (-) TimerEvent: {}
+[1.426102] (-) TimerEvent: {}
+[1.527322] (-) TimerEvent: {}
+[1.621875] (server_demo) StdoutLine: {'line': b'[  3%] Built target server_demo__cpp\n'}
+[1.627648] (-) TimerEvent: {}
+[1.692532] (server_demo) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_server_demo\n'}
+[1.728967] (-) TimerEvent: {}
+[1.806560] (server_demo) StdoutLine: {'line': b'[ 12%] Built target server_demo__rosidl_generator_c\n'}
+[1.829826] (-) TimerEvent: {}
+[1.921793] (server_demo) StdoutLine: {'line': b'[ 22%] Built target server_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[1.927588] (server_demo) StdoutLine: {'line': b'[ 32%] Built target server_demo__rosidl_typesupport_cpp\n'}
+[1.929958] (-) TimerEvent: {}
+[1.965403] (server_demo) StdoutLine: {'line': b'[ 41%] Built target server_demo__rosidl_typesupport_introspection_cpp\n'}
+[2.032678] (-) TimerEvent: {}
+[2.134978] (-) TimerEvent: {}
+[2.238257] (server_demo) StdoutLine: {'line': b'[ 54%] Built target server_demo__rosidl_typesupport_fastrtps_c\n'}
+[2.242387] (-) TimerEvent: {}
+[2.243384] (server_demo) StdoutLine: {'line': b'[ 61%] Built target server_demo__rosidl_typesupport_introspection_c\n'}
+[2.280681] (server_demo) StdoutLine: {'line': b'[ 70%] Built target server_demo__rosidl_typesupport_c\n'}
+[2.342880] (-) TimerEvent: {}
+[2.424088] (server_demo) StdoutLine: {'line': b'[ 70%] Built target server_demo\n'}
+[2.443383] (-) TimerEvent: {}
+[2.544253] (-) TimerEvent: {}
+[2.606213] (server_demo) StdoutLine: {'line': b'[ 74%] Built target server_demo__py\n'}
+[2.644603] (-) TimerEvent: {}
+[2.745661] (-) TimerEvent: {}
+[2.847350] (-) TimerEvent: {}
+[2.876228] (server_demo) StdoutLine: {'line': b'[ 80%] Built target server_demo__rosidl_generator_py\n'}
+[2.948380] (-) TimerEvent: {}
+[3.051846] (-) TimerEvent: {}
+[3.116923] (server_demo) StdoutLine: {'line': b'[ 87%] Built target server_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.152090] (-) TimerEvent: {}
+[3.188444] (server_demo) StdoutLine: {'line': b'[ 93%] Built target server_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[3.198199] (server_demo) StdoutLine: {'line': b'[100%] Built target server_demo__rosidl_typesupport_c__pyext\n'}
+[3.254700] (-) TimerEvent: {}
+[3.356774] (-) TimerEvent: {}
+[3.363471] (server_demo) StdoutLine: {'line': b'running egg_info\n'}
+[3.370024] (server_demo) StdoutLine: {'line': b'writing server_demo.egg-info/PKG-INFO\n'}
+[3.370600] (server_demo) StdoutLine: {'line': b'writing dependency_links to server_demo.egg-info/dependency_links.txt\n'}
+[3.374523] (server_demo) StdoutLine: {'line': b'writing top-level names to server_demo.egg-info/top_level.txt\n'}
+[3.395366] (server_demo) StdoutLine: {'line': b"reading manifest file 'server_demo.egg-info/SOURCES.txt'\n"}
+[3.401962] (server_demo) StdoutLine: {'line': b"writing manifest file 'server_demo.egg-info/SOURCES.txt'\n"}
+[3.457161] (-) TimerEvent: {}
+[3.514772] (server_demo) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_server_demo_egg\n'}
+[3.558648] (-) TimerEvent: {}
+[3.600046] (server_demo) CommandEnded: {'returncode': 0}
+[3.659656] (-) TimerEvent: {}
+[3.760831] (-) TimerEvent: {}
+[3.861822] (-) TimerEvent: {}
+[3.962919] (-) TimerEvent: {}
+[4.063995] (-) TimerEvent: {}
+[4.165635] (-) TimerEvent: {}
+[4.242660] (server_demo) JobProgress: {'identifier': 'server_demo', 'progress': 'install'}
+[4.265750] (-) TimerEvent: {}
+[4.288172] (server_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/interstellar/face_detect/detect_ws/build/server_demo'], 'cwd': '/home/interstellar/face_detect/detect_ws/build/server_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.132.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'interstellar'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.132.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/interstellar/face_detect/detect_ws/install/server_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/interstellar'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/interstellar/face_detect/detect_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.132.1:7890/'), ('COLCON_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'interstellar'), ('ALL_PROXY', 'socks://192.168.132.1:7890/'), ('http_proxy', 'http://192.168.132.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'interstellar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/interstellar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1358,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1358'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.132.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76b133e7_124c_4052_a237_fb3d118f6fef'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SL34W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ecaa86bd1e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install/cpp_service:/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/interstellar/face_detect/detect_ws/build/server_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.132.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.132.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install/cpp_service:/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble')]), 'shell': False}
+[4.350554] (server_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.364189] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/rosidl_interfaces/server_demo\n'}
+[4.365942] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[4.366319] (-) TimerEvent: {}
+[4.366866] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[4.367207] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/myimage.h\n'}
+[4.367583] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[4.367827] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__type_support.h\n'}
+[4.368195] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__struct.h\n'}
+[4.369227] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__functions.h\n'}
+[4.369684] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__functions.c\n'}
+[4.370053] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg\n'}
+[4.370537] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.371818] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/library_path.sh\n'}
+[4.372255] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/library_path.dsv\n'}
+[4.385555] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_generator_c.so\n'}
+[4.387529] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[4.388653] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[4.389375] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[4.391064] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_fastrtps_c.h\n'}
+[4.391533] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg\n'}
+[4.393402] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.396922] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[4.397646] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[4.398344] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[4.400324] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[4.400814] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__traits.hpp\n'}
+[4.403210] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__struct.hpp\n'}
+[4.404154] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__builder.hpp\n'}
+[4.405297] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/myimage.hpp\n'}
+[4.410034] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[4.410872] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[4.411232] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[4.411609] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.413156] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/dds_fastrtps\n'}
+[4.413665] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg\n'}
+[4.414073] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.420512] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.422409] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[4.422867] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[4.425903] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[4.427017] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__type_support.c\n'}
+[4.427688] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_introspection_c.h\n'}
+[4.429654] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg\n'}
+[4.429927] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.431737] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_introspection_c.so\n'}
+[4.435807] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_c.so\n'}
+[4.436858] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[4.437172] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[4.437388] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[4.437638] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__type_support.cpp\n'}
+[4.437846] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.441348] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[4.449066] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_cpp.so\n'}
+[4.451280] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/pythonpath.sh\n'}
+[4.452096] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/pythonpath.dsv\n'}
+[4.452393] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info\n'}
+[4.452721] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.453575] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.457531] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.457972] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.458536] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo\n'}
+[4.459370] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/__init__.py\n'}
+[4.460753] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/_server_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.461038] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.461273] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.461520] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv\n'}
+[4.461740] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/__init__.py\n'}
+[4.461999] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/_myimage.py\n'}
+[4.462256] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/_myimage_s.c\n'}
+[4.462533] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/libserver_demo__rosidl_generator_py.so\n'}
+[4.462753] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/_server_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.462856] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/_server_demo_s.ep.rosidl_typesupport_c.c\n'}
+[4.462940] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.466584] (-) TimerEvent: {}
+[4.570690] (-) TimerEvent: {}
+[4.637708] (server_demo) StdoutLine: {'line': b"Listing '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo'...\n"}
+[4.638644] (server_demo) StdoutLine: {'line': b"Listing '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv'...\n"}
+[4.660945] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.665361] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.669046] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.670860] (-) TimerEvent: {}
+[4.673652] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_generator_py.so\n'}
+[4.674298] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage.idl\n'}
+[4.674933] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage.srv\n'}
+[4.675324] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage_Request.msg\n'}
+[4.675909] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage_Response.msg\n'}
+[4.676210] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/package_run_dependencies/server_demo\n'}
+[4.677153] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/parent_prefix_path/server_demo\n'}
+[4.679842] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/ament_prefix_path.sh\n'}
+[4.680327] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/ament_prefix_path.dsv\n'}
+[4.680892] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/path.sh\n'}
+[4.682521] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/path.dsv\n'}
+[4.685626] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.bash\n'}
+[4.686018] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.sh\n'}
+[4.686266] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.zsh\n'}
+[4.687004] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.dsv\n'}
+[4.687401] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/package.dsv\n'}
+[4.691509] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/packages/server_demo\n'}
+[4.694072] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_cExport.cmake\n'}
+[4.696569] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.703745] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.704423] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.709330] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_cppExport.cmake\n'}
+[4.714939] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.715374] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.720192] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.720956] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.723787] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cExport.cmake\n'}
+[4.724628] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.731984] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.732740] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.735059] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cppExport.cmake\n'}
+[4.735514] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.738216] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_pyExport.cmake\n'}
+[4.738989] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.740805] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[4.741370] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.744029] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.744376] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.744807] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.745051] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.745263] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.745503] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demoConfig.cmake\n'}
+[4.745726] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demoConfig-version.cmake\n'}
+[4.745933] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/package.xml\n'}
+[4.762749] (server_demo) CommandEnded: {'returncode': 0}
+[4.771143] (-) TimerEvent: {}
+[4.872822] (-) TimerEvent: {}
+[4.974025] (-) TimerEvent: {}
+[5.075630] (-) TimerEvent: {}
+[5.178873] (-) TimerEvent: {}
+[5.281173] (-) TimerEvent: {}
+[5.383675] (-) TimerEvent: {}
+[5.485170] (-) TimerEvent: {}
+[5.557393] (server_demo) JobEnded: {'identifier': 'server_demo', 'rc': 0}
+[5.563181] (cpp_service) JobStarted: {'identifier': 'cpp_service'}
+[5.605840] (py_server) JobStarted: {'identifier': 'py_server'}
+[5.606180] (-) TimerEvent: {}
+[5.706799] (-) TimerEvent: {}
+[5.807626] (-) TimerEvent: {}
+[5.908357] (-) TimerEvent: {}
+[6.009136] (-) TimerEvent: {}
+[6.109906] (-) TimerEvent: {}
+[6.210746] (-) TimerEvent: {}
+[6.311579] (-) TimerEvent: {}
+[6.412363] (-) TimerEvent: {}
+[6.513056] (-) TimerEvent: {}
+[6.613949] (-) TimerEvent: {}
+[6.714960] (-) TimerEvent: {}
+[6.817618] (-) TimerEvent: {}
+[6.918444] (-) TimerEvent: {}
+[7.019569] (-) TimerEvent: {}
+[7.040035] (cpp_service) JobProgress: {'identifier': 'cpp_service', 'progress': 'cmake'}
+[7.065128] (cpp_service) JobProgress: {'identifier': 'cpp_service', 'progress': 'build'}
+[7.065309] (cpp_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/interstellar/face_detect/detect_ws/build/cpp_service', '--', '-j4', '-l4'], 'cwd': '/home/interstellar/face_detect/detect_ws/build/cpp_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.132.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'interstellar'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.132.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/interstellar/face_detect/detect_ws/install/server_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/interstellar'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/interstellar/face_detect/detect_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.132.1:7890/'), ('COLCON_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'interstellar'), ('ALL_PROXY', 'socks://192.168.132.1:7890/'), ('http_proxy', 'http://192.168.132.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'interstellar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/interstellar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1358,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1358'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.132.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76b133e7_124c_4052_a237_fb3d118f6fef'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SL34W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ecaa86bd1e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install/cpp_service:/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/interstellar/face_detect/detect_ws/build/cpp_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.132.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.132.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service:/opt/ros/humble')]), 'shell': False}
+[7.125477] (-) TimerEvent: {}
+[7.228749] (-) TimerEvent: {}
+[7.330050] (-) TimerEvent: {}
+[7.431218] (-) TimerEvent: {}
+[7.535374] (-) TimerEvent: {}
+[7.642878] (-) TimerEvent: {}
+[7.703143] (cpp_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server_cpp\x1b[0m\n'}
+[7.737715] (cpp_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_cpp\x1b[0m\n'}
+[7.742760] (-) TimerEvent: {}
+[7.843597] (-) TimerEvent: {}
+[7.953779] (-) TimerEvent: {}
+[8.060633] (-) TimerEvent: {}
+[8.108772] (cpp_service) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server_cpp.dir/src/server_cpp.cpp.o\x1b[0m\n'}
+[8.158601] (cpp_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client_cpp.dir/src/client_cpp.cpp.o\x1b[0m\n'}
+[8.162839] (-) TimerEvent: {}
+[8.265663] (-) TimerEvent: {}
+[8.369843] (-) TimerEvent: {}
+[8.470739] (-) TimerEvent: {}
+[8.573165] (-) TimerEvent: {}
+[8.675835] (-) TimerEvent: {}
+[8.780083] (-) TimerEvent: {}
+[8.881393] (-) TimerEvent: {}
+[8.986586] (-) TimerEvent: {}
+[9.091708] (-) TimerEvent: {}
+[9.197836] (-) TimerEvent: {}
+[9.307646] (-) TimerEvent: {}
+[9.410900] (-) TimerEvent: {}
+[9.511802] (-) TimerEvent: {}
+[9.589107] (py_server) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_server', 'build', '--build-base', '/home/interstellar/face_detect/detect_ws/build/py_server/build', 'install', '--record', '/home/interstellar/face_detect/detect_ws/build/py_server/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/interstellar/face_detect/detect_ws/src/py_server', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://192.168.132.1:7890/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'LANGUAGE': 'zh_CN:en', 'USER': 'interstellar', 'LC_TIME': 'zh_CN.UTF-8', 'all_proxy': 'socks://192.168.132.1:7890/', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/interstellar/face_detect/detect_ws/install/server_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/interstellar', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/interstellar/face_detect/detect_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1389', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://192.168.132.1:7890/', 'COLCON_PREFIX_PATH': '/home/interstellar/face_detect/detect_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'interstellar', 'ALL_PROXY': 'socks://192.168.132.1:7890/', 'http_proxy': 'http://192.168.132.1:7890/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'interstellar', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/interstellar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1358,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1358', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'ftp_proxy': 'http://192.168.132.1:7890/', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/76b133e7_124c_4052_a237_fb3d118f6fef', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SL34W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ecaa86bd1e.sock', 'GNOME_TERMINAL_SERVICE': ':1.95', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/interstellar/face_detect/detect_ws/install/cpp_service:/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/interstellar/face_detect/detect_ws/build/py_server', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'FTP_PROXY': 'http://192.168.132.1:7890/', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/interstellar/face_detect/detect_ws/build/py_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages:/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HTTP_PROXY': 'http://192.168.132.1:7890/', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service'}, 'shell': False}
+[9.612733] (-) TimerEvent: {}
+[9.717625] (-) TimerEvent: {}
+[9.818357] (-) TimerEvent: {}
+[9.922634] (-) TimerEvent: {}
+[10.026546] (-) TimerEvent: {}
+[10.128612] (-) TimerEvent: {}
+[10.234931] (-) TimerEvent: {}
+[10.368434] (-) TimerEvent: {}
+[10.469182] (-) TimerEvent: {}
+[10.571095] (-) TimerEvent: {}
+[10.672106] (-) TimerEvent: {}
+[10.785383] (-) TimerEvent: {}
+[10.876349] (py_server) StdoutLine: {'line': b'running egg_info\n'}
+[10.879380] (py_server) StdoutLine: {'line': b'creating ../../build/py_server/py_server.egg-info\n'}
+[10.879845] (py_server) StdoutLine: {'line': b'writing ../../build/py_server/py_server.egg-info/PKG-INFO\n'}
+[10.880185] (py_server) StdoutLine: {'line': b'writing dependency_links to ../../build/py_server/py_server.egg-info/dependency_links.txt\n'}
+[10.882924] (py_server) StdoutLine: {'line': b'writing entry points to ../../build/py_server/py_server.egg-info/entry_points.txt\n'}
+[10.883300] (py_server) StdoutLine: {'line': b'writing requirements to ../../build/py_server/py_server.egg-info/requires.txt\n'}
+[10.888274] (py_server) StdoutLine: {'line': b'writing top-level names to ../../build/py_server/py_server.egg-info/top_level.txt\n'}
+[10.888750] (-) TimerEvent: {}
+[10.889126] (py_server) StdoutLine: {'line': b"writing manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'\n"}
+[10.903611] (py_server) StdoutLine: {'line': b"reading manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'\n"}
+[10.906335] (py_server) StdoutLine: {'line': b"writing manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'\n"}
+[10.913135] (py_server) StdoutLine: {'line': b'running build\n'}
+[10.914009] (py_server) StdoutLine: {'line': b'running build_py\n'}
+[10.915852] (py_server) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/build/py_server/build\n'}
+[10.916644] (py_server) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/build/py_server/build/lib\n'}
+[10.919924] (py_server) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server\n'}
+[10.920338] (py_server) StdoutLine: {'line': b'copying py_server/__init__.py -> /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server\n'}
+[10.921377] (py_server) StdoutLine: {'line': b'copying py_server/server_py.py -> /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server\n'}
+[10.921725] (py_server) StdoutLine: {'line': b'copying py_server/client_py.py -> /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server\n'}
+[10.921959] (py_server) StdoutLine: {'line': b'running install\n'}
+[10.925601] (py_server) StdoutLine: {'line': b'running install_lib\n'}
+[10.931557] (py_server) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server\n'}
+[10.931964] (py_server) StdoutLine: {'line': b'copying /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server/__init__.py -> /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server\n'}
+[10.932207] (py_server) StdoutLine: {'line': b'copying /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server/server_py.py -> /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server\n'}
+[10.933562] (py_server) StdoutLine: {'line': b'copying /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server/client_py.py -> /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server\n'}
+[10.936930] (py_server) StdoutLine: {'line': b'byte-compiling /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server/__init__.py to __init__.cpython-310.pyc\n'}
+[10.937483] (py_server) StdoutLine: {'line': b'byte-compiling /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server/server_py.py to server_py.cpython-310.pyc\n'}
+[10.940580] (py_server) StdoutLine: {'line': b'byte-compiling /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server/client_py.py to client_py.cpython-310.pyc\n'}
+[10.941131] (py_server) StdoutLine: {'line': b'running install_data\n'}
+[10.942530] (py_server) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/install/py_server/share/ament_index\n'}
+[10.947322] (py_server) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/install/py_server/share/ament_index/resource_index\n'}
+[10.947704] (py_server) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/install/py_server/share/ament_index/resource_index/packages\n'}
+[10.947928] (py_server) StdoutLine: {'line': b'copying resource/py_server -> /home/interstellar/face_detect/detect_ws/install/py_server/share/ament_index/resource_index/packages\n'}
+[10.948138] (py_server) StdoutLine: {'line': b'copying package.xml -> /home/interstellar/face_detect/detect_ws/install/py_server/share/py_server\n'}
+[10.948362] (py_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.957570] (py_server) StdoutLine: {'line': b'Copying ../../build/py_server/py_server.egg-info to /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server-0.0.0-py3.10.egg-info\n'}
+[10.964721] (py_server) StdoutLine: {'line': b'running install_scripts\n'}
+[10.990643] (-) TimerEvent: {}
+[11.091983] (-) TimerEvent: {}
+[11.096497] (py_server) StdoutLine: {'line': b"writing list of installed files to '/home/interstellar/face_detect/detect_ws/build/py_server/install.log'\n"}
+[11.195633] (-) TimerEvent: {}
+[11.247226] (py_server) CommandEnded: {'returncode': 0}
+[11.295795] (-) TimerEvent: {}
+[11.300629] (py_server) JobEnded: {'identifier': 'py_server', 'rc': 0}
+[11.395983] (-) TimerEvent: {}
+[11.497259] (-) TimerEvent: {}
+[11.597956] (-) TimerEvent: {}
+[11.699643] (-) TimerEvent: {}
+[11.801854] (-) TimerEvent: {}
+[11.905668] (-) TimerEvent: {}
+[12.007294] (-) TimerEvent: {}
+[12.108657] (-) TimerEvent: {}
+[12.212756] (-) TimerEvent: {}
+[12.315502] (-) TimerEvent: {}
+[12.417643] (-) TimerEvent: {}
+[12.518959] (-) TimerEvent: {}
+[12.623635] (-) TimerEvent: {}
+[12.724853] (-) TimerEvent: {}
+[12.826033] (-) TimerEvent: {}
+[12.929189] (-) TimerEvent: {}
+[13.032715] (-) TimerEvent: {}
+[13.135973] (-) TimerEvent: {}
+[13.237955] (-) TimerEvent: {}
+[13.340312] (-) TimerEvent: {}
+[13.447344] (-) TimerEvent: {}
+[13.548628] (-) TimerEvent: {}
+[13.652012] (-) TimerEvent: {}
+[13.753576] (-) TimerEvent: {}
+[13.858097] (-) TimerEvent: {}
+[13.960824] (-) TimerEvent: {}
+[14.062890] (-) TimerEvent: {}
+[14.166937] (-) TimerEvent: {}
+[14.269551] (-) TimerEvent: {}
+[14.372641] (-) TimerEvent: {}
+[14.476861] (-) TimerEvent: {}
+[14.584646] (-) TimerEvent: {}
+[14.686231] (-) TimerEvent: {}
+[14.789247] (-) TimerEvent: {}
+[14.896168] (-) TimerEvent: {}
+[14.999626] (-) TimerEvent: {}
+[15.101419] (-) TimerEvent: {}
+[15.203950] (-) TimerEvent: {}
+[15.308365] (-) TimerEvent: {}
+[15.410431] (-) TimerEvent: {}
+[15.513082] (-) TimerEvent: {}
+[15.616270] (-) TimerEvent: {}
+[15.720765] (-) TimerEvent: {}
+[15.824111] (-) TimerEvent: {}
+[15.927966] (-) TimerEvent: {}
+[16.031083] (-) TimerEvent: {}
+[16.136197] (-) TimerEvent: {}
+[16.237877] (-) TimerEvent: {}
+[16.341655] (-) TimerEvent: {}
+[16.447723] (-) TimerEvent: {}
+[16.551270] (-) TimerEvent: {}
+[16.654928] (-) TimerEvent: {}
+[16.758891] (-) TimerEvent: {}
+[16.860154] (-) TimerEvent: {}
+[16.961050] (-) TimerEvent: {}
+[17.064862] (-) TimerEvent: {}
+[17.166942] (-) TimerEvent: {}
+[17.269126] (-) TimerEvent: {}
+[17.371129] (-) TimerEvent: {}
+[17.474936] (-) TimerEvent: {}
+[17.577257] (-) TimerEvent: {}
+[17.680645] (-) TimerEvent: {}
+[17.781857] (-) TimerEvent: {}
+[17.885644] (-) TimerEvent: {}
+[17.986653] (-) TimerEvent: {}
+[18.088765] (-) TimerEvent: {}
+[18.190914] (-) TimerEvent: {}
+[18.292806] (-) TimerEvent: {}
+[18.394667] (-) TimerEvent: {}
+[18.498762] (-) TimerEvent: {}
+[18.601322] (-) TimerEvent: {}
+[18.704147] (-) TimerEvent: {}
+[18.806783] (-) TimerEvent: {}
+[18.909642] (-) TimerEvent: {}
+[19.014630] (-) TimerEvent: {}
+[19.115766] (-) TimerEvent: {}
+[19.220075] (-) TimerEvent: {}
+[19.324089] (-) TimerEvent: {}
+[19.429013] (-) TimerEvent: {}
+[19.531810] (-) TimerEvent: {}
+[19.634584] (-) TimerEvent: {}
+[19.735323] (-) TimerEvent: {}
+[19.839116] (-) TimerEvent: {}
+[19.939844] (-) TimerEvent: {}
+[20.042609] (-) TimerEvent: {}
+[20.145710] (-) TimerEvent: {}
+[20.247737] (-) TimerEvent: {}
+[20.351169] (-) TimerEvent: {}
+[20.454396] (-) TimerEvent: {}
+[20.558087] (-) TimerEvent: {}
+[20.661658] (-) TimerEvent: {}
+[20.764662] (-) TimerEvent: {}
+[20.867364] (-) TimerEvent: {}
+[20.968132] (-) TimerEvent: {}
+[21.070526] (-) TimerEvent: {}
+[21.174927] (-) TimerEvent: {}
+[21.279649] (-) TimerEvent: {}
+[21.381027] (-) TimerEvent: {}
+[21.481923] (-) TimerEvent: {}
+[21.586906] (-) TimerEvent: {}
+[21.689018] (-) TimerEvent: {}
+[21.792941] (-) TimerEvent: {}
+[21.894450] (-) TimerEvent: {}
+[21.995308] (-) TimerEvent: {}
+[22.096873] (-) TimerEvent: {}
+[22.200776] (-) TimerEvent: {}
+[22.303075] (-) TimerEvent: {}
+[22.404983] (-) TimerEvent: {}
+[22.508766] (-) TimerEvent: {}
+[22.616409] (-) TimerEvent: {}
+[22.717236] (-) TimerEvent: {}
+[22.818974] (-) TimerEvent: {}
+[22.924128] (-) TimerEvent: {}
+[23.025115] (-) TimerEvent: {}
+[23.130533] (-) TimerEvent: {}
+[23.231434] (-) TimerEvent: {}
+[23.335433] (-) TimerEvent: {}
+[23.436636] (-) TimerEvent: {}
+[23.538423] (-) TimerEvent: {}
+[23.641550] (-) TimerEvent: {}
+[23.744439] (-) TimerEvent: {}
+[23.848130] (-) TimerEvent: {}
+[23.953945] (-) TimerEvent: {}
+[24.055081] (-) TimerEvent: {}
+[24.157862] (-) TimerEvent: {}
+[24.260384] (-) TimerEvent: {}
+[24.368021] (-) TimerEvent: {}
+[24.472917] (-) TimerEvent: {}
+[24.574850] (-) TimerEvent: {}
+[24.677773] (-) TimerEvent: {}
+[24.781145] (-) TimerEvent: {}
+[24.883815] (-) TimerEvent: {}
+[24.988620] (-) TimerEvent: {}
+[25.090619] (-) TimerEvent: {}
+[25.191926] (-) TimerEvent: {}
+[25.296919] (-) TimerEvent: {}
+[25.398857] (-) TimerEvent: {}
+[25.499737] (-) TimerEvent: {}
+[25.601694] (-) TimerEvent: {}
+[25.707019] (-) TimerEvent: {}
+[25.810170] (-) TimerEvent: {}
+[25.911001] (-) TimerEvent: {}
+[26.014927] (-) TimerEvent: {}
+[26.116576] (-) TimerEvent: {}
+[26.219671] (-) TimerEvent: {}
+[26.321631] (-) TimerEvent: {}
+[26.424766] (-) TimerEvent: {}
+[26.525608] (-) TimerEvent: {}
+[26.628767] (-) TimerEvent: {}
+[26.733628] (-) TimerEvent: {}
+[26.834643] (-) TimerEvent: {}
+[26.938187] (-) TimerEvent: {}
+[27.042014] (-) TimerEvent: {}
+[27.145642] (-) TimerEvent: {}
+[27.248018] (-) TimerEvent: {}
+[27.349219] (-) TimerEvent: {}
+[27.456601] (-) TimerEvent: {}
+[27.558691] (-) TimerEvent: {}
+[27.660956] (-) TimerEvent: {}
+[27.766303] (-) TimerEvent: {}
+[27.867853] (-) TimerEvent: {}
+[27.969418] (-) TimerEvent: {}
+[28.070212] (-) TimerEvent: {}
+[28.173633] (-) TimerEvent: {}
+[28.276622] (-) TimerEvent: {}
+[28.378257] (-) TimerEvent: {}
+[28.482036] (-) TimerEvent: {}
+[28.585009] (-) TimerEvent: {}
+[28.687991] (-) TimerEvent: {}
+[28.790034] (-) TimerEvent: {}
+[28.893593] (-) TimerEvent: {}
+[28.999688] (-) TimerEvent: {}
+[29.101351] (-) TimerEvent: {}
+[29.206026] (-) TimerEvent: {}
+[29.308196] (-) TimerEvent: {}
+[29.412562] (-) TimerEvent: {}
+[29.515657] (-) TimerEvent: {}
+[29.619446] (-) TimerEvent: {}
+[29.721677] (-) TimerEvent: {}
+[29.824747] (-) TimerEvent: {}
+[29.926695] (-) TimerEvent: {}
+[30.030668] (-) TimerEvent: {}
+[30.132596] (-) TimerEvent: {}
+[30.235689] (-) TimerEvent: {}
+[30.336636] (-) TimerEvent: {}
+[30.439323] (-) TimerEvent: {}
+[30.540242] (-) TimerEvent: {}
+[30.642748] (-) TimerEvent: {}
+[30.744077] (-) TimerEvent: {}
+[30.846231] (-) TimerEvent: {}
+[30.948545] (-) TimerEvent: {}
+[31.050308] (-) TimerEvent: {}
+[31.151563] (-) TimerEvent: {}
+[31.254040] (-) TimerEvent: {}
+[31.355744] (-) TimerEvent: {}
+[31.457821] (-) TimerEvent: {}
+[31.563260] (-) TimerEvent: {}
+[31.664854] (-) TimerEvent: {}
+[31.766730] (-) TimerEvent: {}
+[31.868766] (-) TimerEvent: {}
+[31.969813] (-) TimerEvent: {}
+[32.072376] (-) TimerEvent: {}
+[32.174729] (-) TimerEvent: {}
+[32.275629] (-) TimerEvent: {}
+[32.377365] (-) TimerEvent: {}
+[32.478783] (-) TimerEvent: {}
+[32.580949] (-) TimerEvent: {}
+[32.683802] (-) TimerEvent: {}
+[32.785746] (-) TimerEvent: {}
+[32.886807] (-) TimerEvent: {}
+[32.988407] (-) TimerEvent: {}
+[33.089674] (-) TimerEvent: {}
+[33.190686] (-) TimerEvent: {}
+[33.291682] (-) TimerEvent: {}
+[33.392636] (-) TimerEvent: {}
+[33.494656] (-) TimerEvent: {}
+[33.597343] (-) TimerEvent: {}
+[33.698647] (-) TimerEvent: {}
+[33.800218] (-) TimerEvent: {}
+[33.901191] (-) TimerEvent: {}
+[34.002918] (-) TimerEvent: {}
+[34.104395] (-) TimerEvent: {}
+[34.206214] (-) TimerEvent: {}
+[34.308075] (-) TimerEvent: {}
+[34.409770] (-) TimerEvent: {}
+[34.511897] (-) TimerEvent: {}
+[34.613876] (-) TimerEvent: {}
+[34.717225] (-) TimerEvent: {}
+[34.818999] (-) TimerEvent: {}
+[34.921102] (-) TimerEvent: {}
+[35.022295] (-) TimerEvent: {}
+[35.123338] (-) TimerEvent: {}
+[35.224810] (-) TimerEvent: {}
+[35.325828] (-) TimerEvent: {}
+[35.426982] (-) TimerEvent: {}
+[35.527937] (-) TimerEvent: {}
+[35.629745] (-) TimerEvent: {}
+[35.730859] (-) TimerEvent: {}
+[35.832189] (-) TimerEvent: {}
+[35.935065] (-) TimerEvent: {}
+[36.036098] (-) TimerEvent: {}
+[36.139172] (-) TimerEvent: {}
+[36.240415] (-) TimerEvent: {}
+[36.342944] (-) TimerEvent: {}
+[36.444012] (-) TimerEvent: {}
+[36.545137] (-) TimerEvent: {}
+[36.646859] (-) TimerEvent: {}
+[36.748975] (-) TimerEvent: {}
+[36.851185] (-) TimerEvent: {}
+[36.953645] (-) TimerEvent: {}
+[37.057579] (-) TimerEvent: {}
+[37.159246] (-) TimerEvent: {}
+[37.260696] (-) TimerEvent: {}
+[37.364179] (-) TimerEvent: {}
+[37.468286] (-) TimerEvent: {}
+[37.569624] (-) TimerEvent: {}
+[37.672188] (-) TimerEvent: {}
+[37.774732] (-) TimerEvent: {}
+[37.875964] (-) TimerEvent: {}
+[37.976836] (-) TimerEvent: {}
+[38.077789] (-) TimerEvent: {}
+[38.180050] (-) TimerEvent: {}
+[38.284088] (-) TimerEvent: {}
+[38.386189] (-) TimerEvent: {}
+[38.490823] (-) TimerEvent: {}
+[38.592117] (-) TimerEvent: {}
+[38.695288] (-) TimerEvent: {}
+[38.797186] (-) TimerEvent: {}
+[38.899371] (-) TimerEvent: {}
+[39.001548] (-) TimerEvent: {}
+[39.103600] (-) TimerEvent: {}
+[39.204635] (-) TimerEvent: {}
+[39.306914] (-) TimerEvent: {}
+[39.411337] (-) TimerEvent: {}
+[39.513903] (-) TimerEvent: {}
+[39.615778] (-) TimerEvent: {}
+[39.717892] (-) TimerEvent: {}
+[39.819767] (-) TimerEvent: {}
+[39.920693] (-) TimerEvent: {}
+[40.021613] (-) TimerEvent: {}
+[40.123052] (-) TimerEvent: {}
+[40.226147] (-) TimerEvent: {}
+[40.327146] (-) TimerEvent: {}
+[40.453731] (-) TimerEvent: {}
+[40.554442] (-) TimerEvent: {}
+[40.655987] (-) TimerEvent: {}
+[40.758290] (-) TimerEvent: {}
+[40.861703] (-) TimerEvent: {}
+[40.964660] (-) TimerEvent: {}
+[41.066872] (-) TimerEvent: {}
+[41.169881] (-) TimerEvent: {}
+[41.271191] (-) TimerEvent: {}
+[41.373859] (-) TimerEvent: {}
+[41.474818] (-) TimerEvent: {}
+[41.578160] (-) TimerEvent: {}
+[41.680729] (-) TimerEvent: {}
+[41.784241] (-) TimerEvent: {}
+[41.887162] (-) TimerEvent: {}
+[41.988756] (-) TimerEvent: {}
+[42.090925] (-) TimerEvent: {}
+[42.192395] (-) TimerEvent: {}
+[42.294723] (-) TimerEvent: {}
+[42.396651] (-) TimerEvent: {}
+[42.497730] (-) TimerEvent: {}
+[42.600055] (-) TimerEvent: {}
+[42.703071] (-) TimerEvent: {}
+[42.804755] (-) TimerEvent: {}
+[42.906706] (-) TimerEvent: {}
+[43.007617] (-) TimerEvent: {}
+[43.108848] (-) TimerEvent: {}
+[43.210672] (-) TimerEvent: {}
+[43.311947] (-) TimerEvent: {}
+[43.417813] (-) TimerEvent: {}
+[43.520061] (-) TimerEvent: {}
+[43.622791] (-) TimerEvent: {}
+[43.723688] (-) TimerEvent: {}
+[43.824789] (-) TimerEvent: {}
+[43.925845] (-) TimerEvent: {}
+[44.027422] (-) TimerEvent: {}
+[44.129023] (-) TimerEvent: {}
+[44.230198] (-) TimerEvent: {}
+[44.331333] (-) TimerEvent: {}
+[44.433898] (-) TimerEvent: {}
+[44.535227] (-) TimerEvent: {}
+[44.636671] (-) TimerEvent: {}
+[44.737675] (-) TimerEvent: {}
+[44.841943] (-) TimerEvent: {}
+[44.943271] (-) TimerEvent: {}
+[45.046112] (-) TimerEvent: {}
+[45.148700] (-) TimerEvent: {}
+[45.251698] (-) TimerEvent: {}
+[45.354413] (-) TimerEvent: {}
+[45.456787] (-) TimerEvent: {}
+[45.558235] (-) TimerEvent: {}
+[45.661380] (-) TimerEvent: {}
+[45.763876] (-) TimerEvent: {}
+[45.866684] (-) TimerEvent: {}
+[45.967339] (-) TimerEvent: {}
+[46.069180] (-) TimerEvent: {}
+[46.173031] (-) TimerEvent: {}
+[46.273809] (-) TimerEvent: {}
+[46.377676] (-) TimerEvent: {}
+[46.479627] (-) TimerEvent: {}
+[46.580314] (-) TimerEvent: {}
+[46.681679] (-) TimerEvent: {}
+[46.787402] (-) TimerEvent: {}
+[46.889629] (-) TimerEvent: {}
+[46.991918] (-) TimerEvent: {}
+[47.093257] (-) TimerEvent: {}
+[47.194596] (-) TimerEvent: {}
+[47.297090] (-) TimerEvent: {}
+[47.398125] (-) TimerEvent: {}
+[47.499135] (-) TimerEvent: {}
+[47.600707] (-) TimerEvent: {}
+[47.703760] (-) TimerEvent: {}
+[47.805101] (-) TimerEvent: {}
+[47.908549] (-) TimerEvent: {}
+[48.010391] (-) TimerEvent: {}
+[48.112195] (-) TimerEvent: {}
+[48.213170] (-) TimerEvent: {}
+[48.314982] (-) TimerEvent: {}
+[48.418333] (-) TimerEvent: {}
+[48.519421] (-) TimerEvent: {}
+[48.621185] (-) TimerEvent: {}
+[48.723765] (-) TimerEvent: {}
+[48.825337] (-) TimerEvent: {}
+[48.926358] (-) TimerEvent: {}
+[49.028140] (-) TimerEvent: {}
+[49.129093] (-) TimerEvent: {}
+[49.232112] (-) TimerEvent: {}
+[49.334972] (-) TimerEvent: {}
+[49.436723] (-) TimerEvent: {}
+[49.538235] (-) TimerEvent: {}
+[49.639920] (-) TimerEvent: {}
+[49.741598] (-) TimerEvent: {}
+[49.843623] (-) TimerEvent: {}
+[49.944962] (-) TimerEvent: {}
+[50.046591] (-) TimerEvent: {}
+[50.148284] (-) TimerEvent: {}
+[50.249947] (-) TimerEvent: {}
+[50.352236] (-) TimerEvent: {}
+[50.453583] (-) TimerEvent: {}
+[50.555587] (-) TimerEvent: {}
+[50.656599] (-) TimerEvent: {}
+[50.757662] (-) TimerEvent: {}
+[50.858761] (-) TimerEvent: {}
+[50.961308] (-) TimerEvent: {}
+[51.062697] (-) TimerEvent: {}
+[51.164349] (-) TimerEvent: {}
+[51.269145] (-) TimerEvent: {}
+[51.382548] (-) TimerEvent: {}
+[51.483746] (-) TimerEvent: {}
+[51.585939] (-) TimerEvent: {}
+[51.688443] (-) TimerEvent: {}
+[51.789837] (-) TimerEvent: {}
+[51.893749] (-) TimerEvent: {}
+[51.996549] (-) TimerEvent: {}
+[52.099044] (-) TimerEvent: {}
+[52.201983] (-) TimerEvent: {}
+[52.303805] (-) TimerEvent: {}
+[52.405562] (-) TimerEvent: {}
+[52.506951] (-) TimerEvent: {}
+[52.608942] (-) TimerEvent: {}
+[52.711365] (-) TimerEvent: {}
+[52.812657] (-) TimerEvent: {}
+[52.916685] (-) TimerEvent: {}
+[53.017778] (-) TimerEvent: {}
+[53.119645] (-) TimerEvent: {}
+[53.223715] (-) TimerEvent: {}
+[53.325638] (-) TimerEvent: {}
+[53.427628] (-) TimerEvent: {}
+[53.529223] (-) TimerEvent: {}
+[53.630689] (-) TimerEvent: {}
+[53.731943] (-) TimerEvent: {}
+[53.833375] (-) TimerEvent: {}
+[53.934891] (-) TimerEvent: {}
+[54.036614] (-) TimerEvent: {}
+[54.137946] (-) TimerEvent: {}
+[54.239141] (-) TimerEvent: {}
+[54.340287] (-) TimerEvent: {}
+[54.441829] (-) TimerEvent: {}
+[54.543421] (-) TimerEvent: {}
+[54.647643] (-) TimerEvent: {}
+[54.749572] (-) TimerEvent: {}
+[54.851403] (-) TimerEvent: {}
+[54.956929] (-) TimerEvent: {}
+[55.058803] (-) TimerEvent: {}
+[55.160853] (-) TimerEvent: {}
+[55.267193] (-) TimerEvent: {}
+[55.370664] (-) TimerEvent: {}
+[55.472200] (-) TimerEvent: {}
+[55.573868] (-) TimerEvent: {}
+[55.675629] (-) TimerEvent: {}
+[55.778924] (-) TimerEvent: {}
+[55.880719] (-) TimerEvent: {}
+[55.983312] (-) TimerEvent: {}
+[56.085760] (-) TimerEvent: {}
+[56.187885] (-) TimerEvent: {}
+[56.290187] (-) TimerEvent: {}
+[56.392975] (-) TimerEvent: {}
+[56.494420] (-) TimerEvent: {}
+[56.595598] (-) TimerEvent: {}
+[56.700632] (-) TimerEvent: {}
+[56.803215] (-) TimerEvent: {}
+[56.905862] (-) TimerEvent: {}
+[57.008134] (-) TimerEvent: {}
+[57.110637] (-) TimerEvent: {}
+[57.214593] (-) TimerEvent: {}
+[57.315774] (-) TimerEvent: {}
+[57.417990] (-) TimerEvent: {}
+[57.519787] (-) TimerEvent: {}
+[57.621670] (-) TimerEvent: {}
+[57.723009] (-) TimerEvent: {}
+[57.824166] (-) TimerEvent: {}
+[57.928301] (-) TimerEvent: {}
+[58.029711] (-) TimerEvent: {}
+[58.131405] (-) TimerEvent: {}
+[58.232744] (-) TimerEvent: {}
+[58.334374] (-) TimerEvent: {}
+[58.436719] (-) TimerEvent: {}
+[58.540719] (-) TimerEvent: {}
+[58.641616] (-) TimerEvent: {}
+[58.742621] (-) TimerEvent: {}
+[58.843608] (-) TimerEvent: {}
+[58.945449] (-) TimerEvent: {}
+[59.047784] (-) TimerEvent: {}
+[59.148908] (-) TimerEvent: {}
+[59.250327] (-) TimerEvent: {}
+[59.352384] (-) TimerEvent: {}
+[59.453956] (-) TimerEvent: {}
+[59.555674] (-) TimerEvent: {}
+[59.656809] (-) TimerEvent: {}
+[59.757953] (-) TimerEvent: {}
+[59.861394] (-) TimerEvent: {}
+[59.964980] (-) TimerEvent: {}
+[60.066765] (-) TimerEvent: {}
+[60.168252] (-) TimerEvent: {}
+[60.271703] (-) TimerEvent: {}
+[60.374114] (-) TimerEvent: {}
+[60.475268] (-) TimerEvent: {}
+[60.577080] (-) TimerEvent: {}
+[60.679785] (-) TimerEvent: {}
+[60.781403] (-) TimerEvent: {}
+[60.887624] (-) TimerEvent: {}
+[60.988829] (-) TimerEvent: {}
+[61.093375] (-) TimerEvent: {}
+[61.199000] (-) TimerEvent: {}
+[61.301226] (-) TimerEvent: {}
+[61.404076] (-) TimerEvent: {}
+[61.506969] (-) TimerEvent: {}
+[61.611777] (-) TimerEvent: {}
+[61.713689] (-) TimerEvent: {}
+[61.815405] (-) TimerEvent: {}
+[61.917107] (-) TimerEvent: {}
+[62.019294] (-) TimerEvent: {}
+[62.120807] (-) TimerEvent: {}
+[62.224299] (-) TimerEvent: {}
+[62.327978] (-) TimerEvent: {}
+[62.432013] (-) TimerEvent: {}
+[62.534730] (-) TimerEvent: {}
+[62.637983] (-) TimerEvent: {}
+[62.740068] (-) TimerEvent: {}
+[62.840952] (-) TimerEvent: {}
+[62.942712] (-) TimerEvent: {}
+[63.046081] (-) TimerEvent: {}
+[63.147424] (-) TimerEvent: {}
+[63.250139] (-) TimerEvent: {}
+[63.351679] (-) TimerEvent: {}
+[63.365079] (cpp_service) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable client_cpp\x1b[0m\n'}
+[63.452060] (-) TimerEvent: {}
+[63.555391] (-) TimerEvent: {}
+[63.656342] (-) TimerEvent: {}
+[63.757945] (-) TimerEvent: {}
+[63.859990] (-) TimerEvent: {}
+[63.961713] (-) TimerEvent: {}
+[64.064650] (-) TimerEvent: {}
+[64.165357] (-) TimerEvent: {}
+[64.268634] (-) TimerEvent: {}
+[64.369509] (-) TimerEvent: {}
+[64.475039] (-) TimerEvent: {}
+[64.579796] (-) TimerEvent: {}
+[64.646798] (cpp_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server_cpp\x1b[0m\n'}
+[64.681433] (-) TimerEvent: {}
+[64.782978] (-) TimerEvent: {}
+[64.885648] (-) TimerEvent: {}
+[64.986795] (-) TimerEvent: {}
+[65.091888] (-) TimerEvent: {}
+[65.193337] (-) TimerEvent: {}
+[65.294890] (-) TimerEvent: {}
+[65.397065] (-) TimerEvent: {}
+[65.498842] (-) TimerEvent: {}
+[65.600302] (-) TimerEvent: {}
+[65.703809] (-) TimerEvent: {}
+[65.807872] (-) TimerEvent: {}
+[65.909942] (-) TimerEvent: {}
+[66.012988] (-) TimerEvent: {}
+[66.115214] (-) TimerEvent: {}
+[66.217217] (-) TimerEvent: {}
+[66.320237] (-) TimerEvent: {}
+[66.421645] (-) TimerEvent: {}
+[66.523263] (-) TimerEvent: {}
+[66.624226] (-) TimerEvent: {}
+[66.726257] (-) TimerEvent: {}
+[66.827610] (-) TimerEvent: {}
+[66.928698] (-) TimerEvent: {}
+[67.030854] (-) TimerEvent: {}
+[67.131693] (-) TimerEvent: {}
+[67.233362] (-) TimerEvent: {}
+[67.335625] (-) TimerEvent: {}
+[67.437024] (-) TimerEvent: {}
+[67.538915] (-) TimerEvent: {}
+[67.640154] (-) TimerEvent: {}
+[67.742323] (-) TimerEvent: {}
+[67.843898] (-) TimerEvent: {}
+[67.947469] (-) TimerEvent: {}
+[68.054374] (-) TimerEvent: {}
+[68.157535] (-) TimerEvent: {}
+[68.258676] (-) TimerEvent: {}
+[68.360660] (-) TimerEvent: {}
+[68.382509] (cpp_service) StdoutLine: {'line': b'[100%] Built target server_cpp\n'}
+[68.385341] (cpp_service) StdoutLine: {'line': b'[100%] Built target client_cpp\n'}
+[68.437397] (cpp_service) CommandEnded: {'returncode': 0}
+[68.463777] (-) TimerEvent: {}
+[68.564975] (-) TimerEvent: {}
+[68.665811] (-) TimerEvent: {}
+[68.691946] (cpp_service) JobProgress: {'identifier': 'cpp_service', 'progress': 'install'}
+[68.692174] (cpp_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/interstellar/face_detect/detect_ws/build/cpp_service'], 'cwd': '/home/interstellar/face_detect/detect_ws/build/cpp_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.132.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'interstellar'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.132.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/interstellar/face_detect/detect_ws/install/server_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/interstellar'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/interstellar/face_detect/detect_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1389'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.132.1:7890/'), ('COLCON_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'interstellar'), ('ALL_PROXY', 'socks://192.168.132.1:7890/'), ('http_proxy', 'http://192.168.132.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'interstellar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/interstellar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1358,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1358'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.132.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/76b133e7_124c_4052_a237_fb3d118f6fef'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SL34W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ecaa86bd1e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install/cpp_service:/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/interstellar/face_detect/detect_ws/build/cpp_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.132.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.132.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service:/opt/ros/humble')]), 'shell': False}
+[68.743569] (cpp_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[68.755199] (cpp_service) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/cpp_service/lib/cpp_service/client_cpp\n'}
+[68.766314] (-) TimerEvent: {}
+[68.819070] (cpp_service) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/cpp_service/lib/cpp_service/client_cpp" to ""\n'}
+[68.830291] (cpp_service) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/cpp_service/lib/cpp_service/server_cpp\n'}
+[68.867027] (-) TimerEvent: {}
+[68.888811] (cpp_service) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/cpp_service/lib/cpp_service/server_cpp" to ""\n'}
+[68.889331] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/ament_index/resource_index/package_run_dependencies/cpp_service\n'}
+[68.889628] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/ament_index/resource_index/parent_prefix_path/cpp_service\n'}
+[68.889861] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/ament_prefix_path.sh\n'}
+[68.892426] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/ament_prefix_path.dsv\n'}
+[68.892851] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/path.sh\n'}
+[68.893274] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/path.dsv\n'}
+[68.893985] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.bash\n'}
+[68.894282] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.sh\n'}
+[68.894567] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.zsh\n'}
+[68.897505] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.dsv\n'}
+[68.900521] (cpp_service) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/package.dsv\n'}
+[68.907812] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/ament_index/resource_index/packages/cpp_service\n'}
+[68.909055] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig.cmake\n'}
+[68.909424] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig-version.cmake\n'}
+[68.909689] (cpp_service) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/package.xml\n'}
+[68.922131] (cpp_service) CommandEnded: {'returncode': 0}
+[68.967265] (-) TimerEvent: {}
+[69.071120] (-) TimerEvent: {}
+[69.173215] (-) TimerEvent: {}
+[69.235163] (cpp_service) JobEnded: {'identifier': 'cpp_service', 'rc': 0}
+[69.238496] (-) EventReactorShutdown: {}

@@ -1,0 +1,616 @@
+[0.000000] (-) TimerEvent: {}
+[0.002224] (server_demo) JobQueued: {'identifier': 'server_demo', 'dependencies': OrderedDict()}
+[0.002522] (server_demo) JobStarted: {'identifier': 'server_demo'}
+[0.080220] (server_demo) JobProgress: {'identifier': 'server_demo', 'progress': 'cmake'}
+[0.084861] (server_demo) JobProgress: {'identifier': 'server_demo', 'progress': 'build'}
+[0.088574] (server_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/interstellar/face_detect/detect_ws/build/server_demo', '--', '-j4', '-l4'], 'cwd': '/home/interstellar/face_detect/detect_ws/build/server_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.132.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'interstellar'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.132.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/interstellar'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/interstellar/face_detect/detect_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1380'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.132.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'interstellar'), ('ALL_PROXY', 'socks://192.168.132.1:7890/'), ('http_proxy', 'http://192.168.132.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'interstellar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1355,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1355'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.132.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/209f9288_3a0c_4ecb_b090_21d22789e797'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H6X0W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ecaa86bd1e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/interstellar/face_detect/detect_ws/build/server_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.132.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.132.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.116497] (-) TimerEvent: {}
+[0.224013] (-) TimerEvent: {}
+[0.326835] (-) TimerEvent: {}
+[0.379872] (server_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.427495] (-) TimerEvent: {}
+[0.529752] (-) TimerEvent: {}
+[0.632840] (-) TimerEvent: {}
+[0.734642] (-) TimerEvent: {}
+[0.839612] (-) TimerEvent: {}
+[0.941411] (-) TimerEvent: {}
+[1.043716] (-) TimerEvent: {}
+[1.146629] (-) TimerEvent: {}
+[1.248799] (-) TimerEvent: {}
+[1.344369] (server_demo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.349500] (-) TimerEvent: {}
+[1.451969] (-) TimerEvent: {}
+[1.553914] (-) TimerEvent: {}
+[1.585499] (server_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.627263] (server_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.654851] (-) TimerEvent: {}
+[1.700923] (server_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.756524] (-) TimerEvent: {}
+[1.820961] (server_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.857285] (-) TimerEvent: {}
+[1.944977] (server_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.958475] (-) TimerEvent: {}
+[2.061458] (-) TimerEvent: {}
+[2.164676] (-) TimerEvent: {}
+[2.267333] (-) TimerEvent: {}
+[2.370685] (server_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.371741] (-) TimerEvent: {}
+[2.473739] (-) TimerEvent: {}
+[2.576771] (-) TimerEvent: {}
+[2.679002] (-) TimerEvent: {}
+[2.781443] (-) TimerEvent: {}
+[2.884937] (-) TimerEvent: {}
+[2.987538] (-) TimerEvent: {}
+[3.089654] (-) TimerEvent: {}
+[3.191222] (-) TimerEvent: {}
+[3.293098] (-) TimerEvent: {}
+[3.395794] (-) TimerEvent: {}
+[3.497502] (-) TimerEvent: {}
+[3.599921] (-) TimerEvent: {}
+[3.701846] (-) TimerEvent: {}
+[3.804679] (-) TimerEvent: {}
+[3.906978] (-) TimerEvent: {}
+[4.010617] (-) TimerEvent: {}
+[4.112247] (-) TimerEvent: {}
+[4.216709] (-) TimerEvent: {}
+[4.318351] (-) TimerEvent: {}
+[4.419815] (-) TimerEvent: {}
+[4.521545] (-) TimerEvent: {}
+[4.624802] (-) TimerEvent: {}
+[4.724729] (server_demo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.725584] (-) TimerEvent: {}
+[4.827560] (-) TimerEvent: {}
+[4.929461] (-) TimerEvent: {}
+[5.036392] (-) TimerEvent: {}
+[5.137986] (-) TimerEvent: {}
+[5.243602] (-) TimerEvent: {}
+[5.346626] (-) TimerEvent: {}
+[5.449504] (-) TimerEvent: {}
+[5.552465] (-) TimerEvent: {}
+[5.653917] (-) TimerEvent: {}
+[5.757395] (-) TimerEvent: {}
+[5.861639] (-) TimerEvent: {}
+[5.964463] (-) TimerEvent: {}
+[6.065980] (-) TimerEvent: {}
+[6.168771] (-) TimerEvent: {}
+[6.270846] (-) TimerEvent: {}
+[6.374592] (-) TimerEvent: {}
+[6.478955] (-) TimerEvent: {}
+[6.581664] (-) TimerEvent: {}
+[6.684651] (-) TimerEvent: {}
+[6.786870] (-) TimerEvent: {}
+[6.890968] (-) TimerEvent: {}
+[6.993896] (-) TimerEvent: {}
+[7.095905] (-) TimerEvent: {}
+[7.197552] (-) TimerEvent: {}
+[7.300466] (-) TimerEvent: {}
+[7.402647] (-) TimerEvent: {}
+[7.504409] (-) TimerEvent: {}
+[7.607544] (-) TimerEvent: {}
+[7.710254] (-) TimerEvent: {}
+[7.812759] (-) TimerEvent: {}
+[7.916700] (-) TimerEvent: {}
+[8.018660] (-) TimerEvent: {}
+[8.120962] (-) TimerEvent: {}
+[8.223596] (-) TimerEvent: {}
+[8.325473] (-) TimerEvent: {}
+[8.427511] (-) TimerEvent: {}
+[8.529515] (-) TimerEvent: {}
+[8.631448] (-) TimerEvent: {}
+[8.733511] (-) TimerEvent: {}
+[8.839743] (-) TimerEvent: {}
+[8.942008] (-) TimerEvent: {}
+[9.044891] (-) TimerEvent: {}
+[9.148568] (-) TimerEvent: {}
+[9.159444] (server_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.249471] (-) TimerEvent: {}
+[9.351732] (-) TimerEvent: {}
+[9.453621] (-) TimerEvent: {}
+[9.556293] (-) TimerEvent: {}
+[9.658974] (-) TimerEvent: {}
+[9.761384] (-) TimerEvent: {}
+[9.865585] (-) TimerEvent: {}
+[9.968109] (-) TimerEvent: {}
+[10.073337] (-) TimerEvent: {}
+[10.176326] (-) TimerEvent: {}
+[10.278421] (-) TimerEvent: {}
+[10.380718] (-) TimerEvent: {}
+[10.483725] (-) TimerEvent: {}
+[10.585481] (-) TimerEvent: {}
+[10.688546] (-) TimerEvent: {}
+[10.790582] (-) TimerEvent: {}
+[10.892484] (-) TimerEvent: {}
+[10.942640] (server_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.993605] (-) TimerEvent: {}
+[11.096589] (-) TimerEvent: {}
+[11.141490] (server_demo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[11.157392] (server_demo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.197540] (-) TimerEvent: {}
+[11.299662] (-) TimerEvent: {}
+[11.358729] (server_demo) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[11.361367] (server_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.361912] (server_demo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.364608] (server_demo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[11.400644] (-) TimerEvent: {}
+[11.502540] (-) TimerEvent: {}
+[11.534449] (server_demo) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.603430] (-) TimerEvent: {}
+[11.704913] (-) TimerEvent: {}
+[11.807011] (-) TimerEvent: {}
+[11.909565] (-) TimerEvent: {}
+[12.011648] (-) TimerEvent: {}
+[12.114466] (-) TimerEvent: {}
+[12.216740] (-) TimerEvent: {}
+[12.229720] (server_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.317602] (-) TimerEvent: {}
+[12.351870] (server_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.375826] (server_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.404473] (server_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.418290] (-) TimerEvent: {}
+[12.520400] (-) TimerEvent: {}
+[12.623008] (-) TimerEvent: {}
+[12.724642] (-) TimerEvent: {}
+[12.827534] (-) TimerEvent: {}
+[12.885316] (server_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[12.912564] (server_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/interstellar/face_detect/detect_ws/build/server_demo\n'}
+[12.929524] (-) TimerEvent: {}
+[13.030796] (-) TimerEvent: {}
+[13.136485] (-) TimerEvent: {}
+[13.236769] (server_demo) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.240781] (-) TimerEvent: {}
+[13.343722] (-) TimerEvent: {}
+[13.449688] (-) TimerEvent: {}
+[13.459022] (server_demo) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.538716] (server_demo) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_server_demo\n'}
+[13.558322] (-) TimerEvent: {}
+[13.660757] (-) TimerEvent: {}
+[13.765295] (-) TimerEvent: {}
+[13.870752] (-) TimerEvent: {}
+[13.974346] (-) TimerEvent: {}
+[14.080509] (-) TimerEvent: {}
+[14.182842] (-) TimerEvent: {}
+[14.292308] (-) TimerEvent: {}
+[14.401693] (-) TimerEvent: {}
+[14.507853] (-) TimerEvent: {}
+[14.609395] (-) TimerEvent: {}
+[14.714433] (-) TimerEvent: {}
+[14.820667] (-) TimerEvent: {}
+[14.924732] (-) TimerEvent: {}
+[15.038847] (-) TimerEvent: {}
+[15.150553] (-) TimerEvent: {}
+[15.256526] (-) TimerEvent: {}
+[15.360336] (-) TimerEvent: {}
+[15.461728] (-) TimerEvent: {}
+[15.518642] (server_demo) StdoutLine: {'line': b'[  6%] Built target server_demo__cpp\n'}
+[15.528962] (server_demo) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/server_demo__rosidl_generator_c.dir/rosidl_generator_c/server_demo/srv/detail/myimage__functions.c.o\x1b[0m\n'}
+[15.568755] (-) TimerEvent: {}
+[15.676877] (-) TimerEvent: {}
+[15.743929] (server_demo) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.780528] (-) TimerEvent: {}
+[15.786318] (server_demo) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.883727] (-) TimerEvent: {}
+[15.996315] (-) TimerEvent: {}
+[16.099440] (-) TimerEvent: {}
+[16.203443] (-) TimerEvent: {}
+[16.306458] (-) TimerEvent: {}
+[16.338745] (server_demo) StdoutLine: {'line': b'running egg_info\n'}
+[16.341402] (server_demo) StdoutLine: {'line': b'creating server_demo.egg-info\n'}
+[16.341946] (server_demo) StdoutLine: {'line': b'writing server_demo.egg-info/PKG-INFO\n'}
+[16.345284] (server_demo) StdoutLine: {'line': b'writing dependency_links to server_demo.egg-info/dependency_links.txt\n'}
+[16.347861] (server_demo) StdoutLine: {'line': b'writing top-level names to server_demo.egg-info/top_level.txt\n'}
+[16.355338] (server_demo) StdoutLine: {'line': b"writing manifest file 'server_demo.egg-info/SOURCES.txt'\n"}
+[16.359774] (server_demo) StdoutLine: {'line': b"reading manifest file 'server_demo.egg-info/SOURCES.txt'\n"}
+[16.363527] (server_demo) StdoutLine: {'line': b"writing manifest file 'server_demo.egg-info/SOURCES.txt'\n"}
+[16.407911] (-) TimerEvent: {}
+[16.516464] (-) TimerEvent: {}
+[16.586417] (server_demo) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_server_demo_egg\n'}
+[16.618311] (-) TimerEvent: {}
+[16.721591] (-) TimerEvent: {}
+[16.825033] (-) TimerEvent: {}
+[16.874585] (server_demo) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libserver_demo__rosidl_generator_c.so\x1b[0m\n'}
+[16.917705] (server_demo) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[16.928617] (-) TimerEvent: {}
+[17.034509] (-) TimerEvent: {}
+[17.139908] (-) TimerEvent: {}
+[17.249506] (-) TimerEvent: {}
+[17.351016] (-) TimerEvent: {}
+[17.457423] (-) TimerEvent: {}
+[17.562627] (-) TimerEvent: {}
+[17.591021] (server_demo) StdoutLine: {'line': b'[ 22%] Built target server_demo__rosidl_generator_c\n'}
+[17.663338] (-) TimerEvent: {}
+[17.771885] (-) TimerEvent: {}
+[17.837278] (server_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/server_demo/srv/myimage__type_support.cpp.o\x1b[0m\n'}
+[17.875313] (-) TimerEvent: {}
+[17.898966] (server_demo) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.980398] (-) TimerEvent: {}
+[18.082517] (-) TimerEvent: {}
+[18.192782] (server_demo) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/server_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/server_demo/srv/detail/dds_fastrtps/myimage__type_support.cpp.o\x1b[0m\n'}
+[18.194704] (-) TimerEvent: {}
+[18.301421] (-) TimerEvent: {}
+[18.403944] (-) TimerEvent: {}
+[18.511479] (-) TimerEvent: {}
+[18.615449] (-) TimerEvent: {}
+[18.719471] (-) TimerEvent: {}
+[18.821319] (-) TimerEvent: {}
+[18.925768] (-) TimerEvent: {}
+[19.016870] (server_demo) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/server_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/server_demo/srv/detail/myimage__type_support.cpp.o\x1b[0m\n'}
+[19.029471] (-) TimerEvent: {}
+[19.140297] (-) TimerEvent: {}
+[19.242841] (-) TimerEvent: {}
+[19.347917] (-) TimerEvent: {}
+[19.453930] (-) TimerEvent: {}
+[19.558423] (-) TimerEvent: {}
+[19.668422] (-) TimerEvent: {}
+[19.779879] (-) TimerEvent: {}
+[19.885892] (-) TimerEvent: {}
+[19.993017] (-) TimerEvent: {}
+[20.089395] (server_demo) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/server_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/server_demo/srv/detail/myimage__type_support_c.cpp.o\x1b[0m\n'}
+[20.094107] (-) TimerEvent: {}
+[20.201520] (-) TimerEvent: {}
+[20.308724] (-) TimerEvent: {}
+[20.413536] (-) TimerEvent: {}
+[20.518495] (-) TimerEvent: {}
+[20.620461] (-) TimerEvent: {}
+[20.723651] (-) TimerEvent: {}
+[20.837536] (-) TimerEvent: {}
+[20.941661] (-) TimerEvent: {}
+[21.049731] (-) TimerEvent: {}
+[21.153299] (-) TimerEvent: {}
+[21.263793] (-) TimerEvent: {}
+[21.374469] (-) TimerEvent: {}
+[21.477442] (-) TimerEvent: {}
+[21.586478] (-) TimerEvent: {}
+[21.690667] (-) TimerEvent: {}
+[21.793452] (-) TimerEvent: {}
+[21.902319] (-) TimerEvent: {}
+[22.007845] (-) TimerEvent: {}
+[22.113905] (-) TimerEvent: {}
+[22.220005] (-) TimerEvent: {}
+[22.298668] (server_demo) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libserver_demo__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[22.326531] (-) TimerEvent: {}
+[22.429759] (-) TimerEvent: {}
+[22.535935] (-) TimerEvent: {}
+[22.638471] (-) TimerEvent: {}
+[22.743813] (-) TimerEvent: {}
+[22.858714] (-) TimerEvent: {}
+[22.965794] (-) TimerEvent: {}
+[23.074883] (-) TimerEvent: {}
+[23.181994] (-) TimerEvent: {}
+[23.285620] (-) TimerEvent: {}
+[23.379264] (server_demo) StdoutLine: {'line': b'[ 41%] Built target server_demo__rosidl_typesupport_cpp\n'}
+[23.387595] (-) TimerEvent: {}
+[23.492946] (-) TimerEvent: {}
+[23.600874] (-) TimerEvent: {}
+[23.663591] (server_demo) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[23.704893] (-) TimerEvent: {}
+[23.808276] (-) TimerEvent: {}
+[23.911536] (-) TimerEvent: {}
+[24.017794] (-) TimerEvent: {}
+[24.120891] (-) TimerEvent: {}
+[24.223643] (-) TimerEvent: {}
+[24.264115] (server_demo) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libserver_demo__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[24.326686] (-) TimerEvent: {}
+[24.431821] (-) TimerEvent: {}
+[24.535443] (-) TimerEvent: {}
+[24.641458] (-) TimerEvent: {}
+[24.742831] (-) TimerEvent: {}
+[24.844864] (-) TimerEvent: {}
+[24.953468] (-) TimerEvent: {}
+[24.969217] (server_demo) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libserver_demo__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[25.053960] (-) TimerEvent: {}
+[25.159576] (-) TimerEvent: {}
+[25.273494] (-) TimerEvent: {}
+[25.378548] (-) TimerEvent: {}
+[25.485498] (-) TimerEvent: {}
+[25.594573] (-) TimerEvent: {}
+[25.609560] (server_demo) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libserver_demo__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[25.695332] (-) TimerEvent: {}
+[25.799573] (-) TimerEvent: {}
+[25.900798] (server_demo) StdoutLine: {'line': b'[ 54%] Built target server_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[25.906886] (-) TimerEvent: {}
+[26.008805] (-) TimerEvent: {}
+[26.093548] (server_demo) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[26.111418] (-) TimerEvent: {}
+[26.217571] (-) TimerEvent: {}
+[26.264242] (server_demo) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/server_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/server_demo/srv/detail/myimage__type_support.c.o\x1b[0m\n'}
+[26.309430] (server_demo) StdoutLine: {'line': b'[ 61%] Built target server_demo__rosidl_typesupport_introspection_cpp\n'}
+[26.322533] (-) TimerEvent: {}
+[26.424576] (-) TimerEvent: {}
+[26.526320] (-) TimerEvent: {}
+[26.628972] (-) TimerEvent: {}
+[26.741795] (-) TimerEvent: {}
+[26.768867] (server_demo) StdoutLine: {'line': b'[ 61%] Built target server_demo__rosidl_typesupport_fastrtps_c\n'}
+[26.843662] (-) TimerEvent: {}
+[26.846644] (server_demo) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libserver_demo__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[26.945485] (-) TimerEvent: {}
+[27.048242] (-) TimerEvent: {}
+[27.153290] (-) TimerEvent: {}
+[27.255989] (-) TimerEvent: {}
+[27.358754] (-) TimerEvent: {}
+[27.403695] (server_demo) StdoutLine: {'line': b'[ 64%] Built target server_demo__rosidl_typesupport_introspection_c\n'}
+[27.460005] (-) TimerEvent: {}
+[27.497490] (server_demo) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/server_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/server_demo/srv/myimage__type_support.cpp.o\x1b[0m\n'}
+[27.560866] (-) TimerEvent: {}
+[27.662530] (-) TimerEvent: {}
+[27.764493] (-) TimerEvent: {}
+[27.866563] (-) TimerEvent: {}
+[27.959291] (server_demo) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libserver_demo__rosidl_typesupport_c.so\x1b[0m\n'}
+[27.967664] (-) TimerEvent: {}
+[28.070558] (-) TimerEvent: {}
+[28.172983] (-) TimerEvent: {}
+[28.274780] (-) TimerEvent: {}
+[28.378481] (-) TimerEvent: {}
+[28.482516] (-) TimerEvent: {}
+[28.583912] (-) TimerEvent: {}
+[28.587473] (server_demo) StdoutLine: {'line': b'[ 70%] Built target server_demo__rosidl_typesupport_c\n'}
+[28.684581] (-) TimerEvent: {}
+[28.786751] (-) TimerEvent: {}
+[28.891347] (-) TimerEvent: {}
+[28.893674] (server_demo) StdoutLine: {'line': b'[ 70%] Built target server_demo\n'}
+[28.992623] (-) TimerEvent: {}
+[29.095521] (-) TimerEvent: {}
+[29.175955] (server_demo) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[29.196018] (-) TimerEvent: {}
+[29.297788] (-) TimerEvent: {}
+[29.399459] (-) TimerEvent: {}
+[29.501038] (-) TimerEvent: {}
+[29.602251] (-) TimerEvent: {}
+[29.704399] (-) TimerEvent: {}
+[29.809485] (-) TimerEvent: {}
+[29.911008] (-) TimerEvent: {}
+[30.013626] (-) TimerEvent: {}
+[30.117493] (-) TimerEvent: {}
+[30.220028] (-) TimerEvent: {}
+[30.322459] (-) TimerEvent: {}
+[30.424677] (-) TimerEvent: {}
+[30.526020] (-) TimerEvent: {}
+[30.629663] (-) TimerEvent: {}
+[30.732857] (-) TimerEvent: {}
+[30.834964] (-) TimerEvent: {}
+[30.858860] (server_demo) StdoutLine: {'line': b'[ 74%] Built target server_demo__py\n'}
+[30.935773] (-) TimerEvent: {}
+[31.038424] (-) TimerEvent: {}
+[31.141475] (-) TimerEvent: {}
+[31.160794] (server_demo) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/server_demo__rosidl_generator_py.dir/rosidl_generator_py/server_demo/srv/_myimage_s.c.o\x1b[0m\n'}
+[31.242743] (-) TimerEvent: {}
+[31.345833] (-) TimerEvent: {}
+[31.448516] (-) TimerEvent: {}
+[31.551361] (-) TimerEvent: {}
+[31.653796] (-) TimerEvent: {}
+[31.756665] (-) TimerEvent: {}
+[31.859475] (-) TimerEvent: {}
+[31.961716] (-) TimerEvent: {}
+[32.065509] (-) TimerEvent: {}
+[32.168870] (-) TimerEvent: {}
+[32.270539] (-) TimerEvent: {}
+[32.373021] (-) TimerEvent: {}
+[32.437379] (server_demo) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/server_demo/libserver_demo__rosidl_generator_py.so\x1b[0m\n'}
+[32.474649] (-) TimerEvent: {}
+[32.576363] (-) TimerEvent: {}
+[32.678967] (-) TimerEvent: {}
+[32.780671] (-) TimerEvent: {}
+[32.882854] (-) TimerEvent: {}
+[32.984918] (-) TimerEvent: {}
+[33.026395] (server_demo) StdoutLine: {'line': b'[ 80%] Built target server_demo__rosidl_generator_py\n'}
+[33.085669] (-) TimerEvent: {}
+[33.189509] (-) TimerEvent: {}
+[33.291475] (-) TimerEvent: {}
+[33.294361] (server_demo) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/server_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/server_demo/_server_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[33.393092] (-) TimerEvent: {}
+[33.412887] (server_demo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/server_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/server_demo/_server_demo_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[33.424513] (server_demo) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/server_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/server_demo/_server_demo_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[33.495277] (-) TimerEvent: {}
+[33.597418] (-) TimerEvent: {}
+[33.699783] (-) TimerEvent: {}
+[33.802505] (-) TimerEvent: {}
+[33.904545] (-) TimerEvent: {}
+[34.011449] (-) TimerEvent: {}
+[34.114628] (-) TimerEvent: {}
+[34.216305] (-) TimerEvent: {}
+[34.321393] (-) TimerEvent: {}
+[34.423351] (-) TimerEvent: {}
+[34.525521] (-) TimerEvent: {}
+[34.630498] (-) TimerEvent: {}
+[34.735995] (-) TimerEvent: {}
+[34.838938] (-) TimerEvent: {}
+[34.950442] (-) TimerEvent: {}
+[34.959372] (server_demo) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/server_demo/server_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[35.052613] (-) TimerEvent: {}
+[35.158544] (-) TimerEvent: {}
+[35.261315] (-) TimerEvent: {}
+[35.323346] (server_demo) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/server_demo/server_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[35.361520] (-) TimerEvent: {}
+[35.420298] (server_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/server_demo/server_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[35.462461] (-) TimerEvent: {}
+[35.566483] (-) TimerEvent: {}
+[35.668400] (-) TimerEvent: {}
+[35.775737] (-) TimerEvent: {}
+[35.827395] (server_demo) StdoutLine: {'line': b'[100%] Built target server_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[35.877004] (-) TimerEvent: {}
+[35.979865] (-) TimerEvent: {}
+[36.081690] (-) TimerEvent: {}
+[36.185854] (-) TimerEvent: {}
+[36.187859] (server_demo) StdoutLine: {'line': b'[100%] Built target server_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[36.223917] (server_demo) StdoutLine: {'line': b'[100%] Built target server_demo__rosidl_typesupport_c__pyext\n'}
+[36.286903] (-) TimerEvent: {}
+[36.376227] (server_demo) CommandEnded: {'returncode': 0}
+[36.391631] (-) TimerEvent: {}
+[36.500517] (-) TimerEvent: {}
+[36.601896] (-) TimerEvent: {}
+[36.704796] (-) TimerEvent: {}
+[36.807702] (-) TimerEvent: {}
+[36.910326] (-) TimerEvent: {}
+[37.012986] (-) TimerEvent: {}
+[37.115611] (-) TimerEvent: {}
+[37.218069] (-) TimerEvent: {}
+[37.321538] (-) TimerEvent: {}
+[37.423444] (-) TimerEvent: {}
+[37.526541] (-) TimerEvent: {}
+[37.628700] (-) TimerEvent: {}
+[37.730935] (-) TimerEvent: {}
+[37.833913] (-) TimerEvent: {}
+[37.869436] (server_demo) JobProgress: {'identifier': 'server_demo', 'progress': 'install'}
+[37.935392] (-) TimerEvent: {}
+[37.976494] (server_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/interstellar/face_detect/detect_ws/build/server_demo'], 'cwd': '/home/interstellar/face_detect/detect_ws/build/server_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.132.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'interstellar'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.132.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/interstellar'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/interstellar/face_detect/detect_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1380'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.132.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'interstellar'), ('ALL_PROXY', 'socks://192.168.132.1:7890/'), ('http_proxy', 'http://192.168.132.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'interstellar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1355,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1355'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.132.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/209f9288_3a0c_4ecb_b090_21d22789e797'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H6X0W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ecaa86bd1e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/interstellar/face_detect/detect_ws/build/server_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.132.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.132.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[38.037015] (-) TimerEvent: {}
+[38.081488] (server_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.082702] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/rosidl_interfaces/server_demo\n'}
+[38.087751] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[38.088614] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[38.089224] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/myimage.h\n'}
+[38.091402] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[38.094276] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__type_support.h\n'}
+[38.097591] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__struct.h\n'}
+[38.098778] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__functions.h\n'}
+[38.101936] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__functions.c\n'}
+[38.103261] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg\n'}
+[38.106628] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[38.109512] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/library_path.sh\n'}
+[38.110444] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/library_path.dsv\n'}
+[38.112788] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_generator_c.so\n'}
+[38.128634] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_generator_c.so" to ""\n'}
+[38.131506] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[38.132023] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[38.132671] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[38.133319] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_fastrtps_c.h\n'}
+[38.133821] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg\n'}
+[38.135375] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[38.135861] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[38.137966] (-) TimerEvent: {}
+[38.148497] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[38.150571] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[38.151033] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[38.152454] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[38.156496] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__traits.hpp\n'}
+[38.157244] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__struct.hpp\n'}
+[38.157741] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__builder.hpp\n'}
+[38.159306] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/myimage.hpp\n'}
+[38.160665] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[38.162009] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[38.163490] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[38.164020] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[38.166453] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/dds_fastrtps\n'}
+[38.167316] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg\n'}
+[38.168608] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[38.170602] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[38.183914] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[38.186435] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[38.186936] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[38.190394] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[38.192623] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__type_support.c\n'}
+[38.193359] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_introspection_c.h\n'}
+[38.197484] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg\n'}
+[38.197998] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[38.198661] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_introspection_c.so\n'}
+[38.207273] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_introspection_c.so" to ""\n'}
+[38.210971] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_c.so\n'}
+[38.221311] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_c.so" to ""\n'}
+[38.221933] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo\n'}
+[38.222612] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv\n'}
+[38.223260] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail\n'}
+[38.224472] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__type_support.cpp\n'}
+[38.224954] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_introspection_cpp.hpp\n'}
+[38.226781] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[38.238581] (-) TimerEvent: {}
+[38.243394] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[38.243994] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_cpp.so\n'}
+[38.256958] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_cpp.so" to ""\n'}
+[38.258687] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/pythonpath.sh\n'}
+[38.260027] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/pythonpath.dsv\n'}
+[38.264608] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info\n'}
+[38.265469] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[38.265963] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[38.266602] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[38.270906] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[38.271753] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo\n'}
+[38.272509] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/__init__.py\n'}
+[38.276459] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/_server_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[38.280369] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[38.282310] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[38.287978] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv\n'}
+[38.290025] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/__init__.py\n'}
+[38.294395] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/_myimage.py\n'}
+[38.295938] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/_myimage_s.c\n'}
+[38.299619] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/libserver_demo__rosidl_generator_py.so\n'}
+[38.301779] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/_server_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[38.305842] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/_server_demo_s.ep.rosidl_typesupport_c.c\n'}
+[38.310542] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[38.339661] (-) TimerEvent: {}
+[38.442269] (-) TimerEvent: {}
+[38.544557] (-) TimerEvent: {}
+[38.555475] (server_demo) StdoutLine: {'line': b"Listing '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo'...\n"}
+[38.556636] (server_demo) StdoutLine: {'line': b"Compiling '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/__init__.py'...\n"}
+[38.558979] (server_demo) StdoutLine: {'line': b"Listing '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv'...\n"}
+[38.560785] (server_demo) StdoutLine: {'line': b"Compiling '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/__init__.py'...\n"}
+[38.561474] (server_demo) StdoutLine: {'line': b"Compiling '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/_myimage.py'...\n"}
+[38.577406] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[38.587389] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[38.596423] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[38.607402] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[38.613970] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[38.626710] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[38.630867] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_generator_py.so\n'}
+[38.643016] (server_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_generator_py.so" to ""\n'}
+[38.643798] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage.idl\n'}
+[38.644917] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage.srv\n'}
+[38.645557] (-) TimerEvent: {}
+[38.647970] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage_Request.msg\n'}
+[38.650768] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage_Response.msg\n'}
+[38.652682] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/package_run_dependencies/server_demo\n'}
+[38.657283] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/parent_prefix_path/server_demo\n'}
+[38.658013] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/ament_prefix_path.sh\n'}
+[38.658699] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/ament_prefix_path.dsv\n'}
+[38.662279] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/path.sh\n'}
+[38.663390] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/path.dsv\n'}
+[38.666509] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.bash\n'}
+[38.667336] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.sh\n'}
+[38.668453] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.zsh\n'}
+[38.668948] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.dsv\n'}
+[38.669589] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/package.dsv\n'}
+[38.671511] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/packages/server_demo\n'}
+[38.671973] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_cExport.cmake\n'}
+[38.673518] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[38.676835] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[38.677593] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[38.681012] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_cppExport.cmake\n'}
+[38.682487] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[38.687395] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[38.688660] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[38.693579] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[38.694379] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cExport.cmake\n'}
+[38.695540] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[38.700602] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[38.701391] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[38.704674] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cppExport.cmake\n'}
+[38.705662] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[38.711733] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_pyExport.cmake\n'}
+[38.712582] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[38.714553] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[38.715468] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[38.718641] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[38.719615] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[38.721584] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[38.723011] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[38.725598] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[38.727827] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demoConfig.cmake\n'}
+[38.729760] (server_demo) StdoutLine: {'line': b'-- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demoConfig-version.cmake\n'}
+[38.731296] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/package.xml\n'}
+[38.746904] (-) TimerEvent: {}
+[38.753265] (server_demo) CommandEnded: {'returncode': 0}
+[38.847776] (-) TimerEvent: {}
+[38.950521] (-) TimerEvent: {}
+[39.052558] (-) TimerEvent: {}
+[39.157572] (-) TimerEvent: {}
+[39.260035] (-) TimerEvent: {}
+[39.361582] (-) TimerEvent: {}
+[39.463315] (-) TimerEvent: {}
+[39.564997] (-) TimerEvent: {}
+[39.667542] (-) TimerEvent: {}
+[39.768999] (-) TimerEvent: {}
+[39.873912] (-) TimerEvent: {}
+[39.976674] (-) TimerEvent: {}
+[40.079660] (-) TimerEvent: {}
+[40.181523] (-) TimerEvent: {}
+[40.274656] (server_demo) JobEnded: {'identifier': 'server_demo', 'rc': 0}
+[40.282029] (-) TimerEvent: {}
+[40.282927] (-) EventReactorShutdown: {}

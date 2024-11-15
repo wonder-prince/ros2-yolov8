@@ -1,0 +1,8 @@
+setup.py
+server_demo/__init__.py
+server_demo.egg-info/PKG-INFO
+server_demo.egg-info/SOURCES.txt
+server_demo.egg-info/dependency_links.txt
+server_demo.egg-info/top_level.txt
+server_demo/srv/__init__.py
+server_demo/srv/_myimage.py

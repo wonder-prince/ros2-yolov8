@@ -1,0 +1,219 @@
+[0.113s] Invoking command in '/home/interstellar/face_detect/detect_ws/build/server_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/interstellar/face_detect/detect_ws/build/server_demo -- -j4 -l4
+[0.380s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.342s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.584s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.625s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.699s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.369s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.723s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.141s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.156s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.357s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.359s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.361s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.362s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.532s] -- Found PythonExtra: .so  
+[12.228s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.350s] -- Added test 'lint_cmake' to check CMake code style
+[12.374s] -- Added test 'xmllint' to check XML markup files
+[12.403s] -- Configuring done
+[12.883s] -- Generating done
+[12.910s] -- Build files have been written to: /home/interstellar/face_detect/detect_ws/build/server_demo
+[13.238s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.459s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.538s] [  6%] Built target ament_cmake_python_copy_server_demo
+[15.517s] [  6%] Built target server_demo__cpp
+[15.527s] [  9%] [32mBuilding C object CMakeFiles/server_demo__rosidl_generator_c.dir/rosidl_generator_c/server_demo/srv/detail/myimage__functions.c.o[0m
+[15.742s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.784s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.337s] running egg_info
+[16.339s] creating server_demo.egg-info
+[16.342s] writing server_demo.egg-info/PKG-INFO
+[16.343s] writing dependency_links to server_demo.egg-info/dependency_links.txt
+[16.348s] writing top-level names to server_demo.egg-info/top_level.txt
+[16.354s] writing manifest file 'server_demo.egg-info/SOURCES.txt'
+[16.358s] reading manifest file 'server_demo.egg-info/SOURCES.txt'
+[16.361s] writing manifest file 'server_demo.egg-info/SOURCES.txt'
+[16.584s] [ 16%] Built target ament_cmake_python_build_server_demo_egg
+[16.872s] [ 19%] [32m[1mLinking C shared library libserver_demo__rosidl_generator_c.so[0m
+[16.916s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.589s] [ 22%] Built target server_demo__rosidl_generator_c
+[17.835s] [ 25%] [32mBuilding CXX object CMakeFiles/server_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/server_demo/srv/myimage__type_support.cpp.o[0m
+[17.903s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.192s] [ 32%] [32mBuilding CXX object CMakeFiles/server_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/server_demo/srv/detail/dds_fastrtps/myimage__type_support.cpp.o[0m
+[19.015s] [ 35%] [32mBuilding CXX object CMakeFiles/server_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/server_demo/srv/detail/myimage__type_support.cpp.o[0m
+[20.087s] [ 38%] [32mBuilding CXX object CMakeFiles/server_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/server_demo/srv/detail/myimage__type_support_c.cpp.o[0m
+[22.297s] [ 41%] [32m[1mLinking CXX shared library libserver_demo__rosidl_typesupport_cpp.so[0m
+[23.377s] [ 41%] Built target server_demo__rosidl_typesupport_cpp
+[23.661s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.262s] [ 48%] [32m[1mLinking CXX shared library libserver_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.967s] [ 51%] [32m[1mLinking CXX shared library libserver_demo__rosidl_typesupport_introspection_cpp.so[0m
+[25.607s] [ 54%] [32m[1mLinking CXX shared library libserver_demo__rosidl_typesupport_fastrtps_c.so[0m
+[25.904s] [ 54%] Built target server_demo__rosidl_typesupport_fastrtps_cpp
+[26.091s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[26.262s] [ 61%] [32mBuilding C object CMakeFiles/server_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/server_demo/srv/detail/myimage__type_support.c.o[0m
+[26.307s] [ 61%] Built target server_demo__rosidl_typesupport_introspection_cpp
+[26.770s] [ 61%] Built target server_demo__rosidl_typesupport_fastrtps_c
+[26.844s] [ 64%] [32m[1mLinking C shared library libserver_demo__rosidl_typesupport_introspection_c.so[0m
+[27.402s] [ 64%] Built target server_demo__rosidl_typesupport_introspection_c
+[27.495s] [ 67%] [32mBuilding CXX object CMakeFiles/server_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/server_demo/srv/myimage__type_support.cpp.o[0m
+[27.957s] [ 70%] [32m[1mLinking CXX shared library libserver_demo__rosidl_typesupport_c.so[0m
+[28.585s] [ 70%] Built target server_demo__rosidl_typesupport_c
+[28.892s] [ 70%] Built target server_demo
+[29.174s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.857s] [ 74%] Built target server_demo__py
+[31.159s] [ 77%] [32mBuilding C object CMakeFiles/server_demo__rosidl_generator_py.dir/rosidl_generator_py/server_demo/srv/_myimage_s.c.o[0m
+[32.435s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/server_demo/libserver_demo__rosidl_generator_py.so[0m
+[33.024s] [ 80%] Built target server_demo__rosidl_generator_py
+[33.292s] [ 83%] [32mBuilding C object CMakeFiles/server_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/server_demo/_server_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[33.411s] [ 87%] [32mBuilding C object CMakeFiles/server_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/server_demo/_server_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[33.422s] [ 90%] [32mBuilding C object CMakeFiles/server_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/server_demo/_server_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[34.957s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/server_demo/server_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.321s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/server_demo/server_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.418s] [100%] [32m[1mLinking C shared library rosidl_generator_py/server_demo/server_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.825s] [100%] Built target server_demo__rosidl_typesupport_fastrtps_c__pyext
+[36.186s] [100%] Built target server_demo__rosidl_typesupport_introspection_c__pyext
+[36.222s] [100%] Built target server_demo__rosidl_typesupport_c__pyext
+[36.376s] Invoked command in '/home/interstellar/face_detect/detect_ws/build/server_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/interstellar/face_detect/detect_ws/build/server_demo -- -j4 -l4
+[37.980s] Invoking command in '/home/interstellar/face_detect/detect_ws/build/server_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/interstellar/face_detect/detect_ws/build/server_demo
+[38.080s] -- Install configuration: ""
+[38.085s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/rosidl_interfaces/server_demo
+[38.086s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo
+[38.086s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv
+[38.087s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/myimage.h
+[38.089s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail
+[38.092s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__type_support.h
+[38.095s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__struct.h
+[38.097s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__functions.h
+[38.100s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__functions.c
+[38.102s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg
+[38.104s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_generator_c__visibility_control.h
+[38.107s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/library_path.sh
+[38.108s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/library_path.dsv
+[38.111s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_generator_c.so
+[38.128s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_generator_c.so" to ""
+[38.129s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo
+[38.130s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv
+[38.130s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail
+[38.131s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_fastrtps_c.h
+[38.132s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg
+[38.133s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[38.134s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_fastrtps_c.so
+[38.148s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[38.148s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo
+[38.149s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv
+[38.150s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail
+[38.154s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__traits.hpp
+[38.155s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__struct.hpp
+[38.155s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__builder.hpp
+[38.157s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/myimage.hpp
+[38.159s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo
+[38.160s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv
+[38.161s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail
+[38.162s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_fastrtps_cpp.hpp
+[38.164s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/dds_fastrtps
+[38.165s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg
+[38.167s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[38.168s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_fastrtps_cpp.so
+[38.182s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[38.184s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo
+[38.187s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv
+[38.189s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail
+[38.190s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__type_support.c
+[38.195s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_introspection_c.h
+[38.195s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg
+[38.196s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[38.196s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_introspection_c.so
+[38.205s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_introspection_c.so" to ""
+[38.209s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_c.so
+[38.219s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_c.so" to ""
+[38.220s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo
+[38.220s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv
+[38.222s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail
+[38.222s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__type_support.cpp
+[38.223s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/include/server_demo/server_demo/srv/detail/myimage__rosidl_typesupport_introspection_cpp.hpp
+[38.225s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_introspection_cpp.so
+[38.241s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[38.242s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_cpp.so
+[38.255s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_typesupport_cpp.so" to ""
+[38.257s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/pythonpath.sh
+[38.262s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/pythonpath.dsv
+[38.262s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info
+[38.263s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[38.264s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/top_level.txt
+[38.264s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[38.269s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[38.270s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo
+[38.270s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/__init__.py
+[38.274s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/_server_demo_s.ep.rosidl_typesupport_introspection_c.c
+[38.278s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[38.280s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[38.286s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv
+[38.290s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/__init__.py
+[38.292s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/_myimage.py
+[38.294s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/_myimage_s.c
+[38.297s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/libserver_demo__rosidl_generator_py.so
+[38.299s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/_server_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[38.306s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/_server_demo_s.ep.rosidl_typesupport_c.c
+[38.308s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[38.553s] Listing '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo'...
+[38.556s] Compiling '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/__init__.py'...
+[38.558s] Listing '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv'...
+[38.559s] Compiling '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/__init__.py'...
+[38.559s] Compiling '/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/srv/_myimage.py'...
+[38.575s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[38.585s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.594s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[38.606s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.612s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[38.625s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages/server_demo/server_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.629s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_generator_py.so
+[38.641s] -- Set runtime path of "/home/interstellar/face_detect/detect_ws/install/server_demo/lib/libserver_demo__rosidl_generator_py.so" to ""
+[38.642s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage.idl
+[38.643s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage.srv
+[38.646s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage_Request.msg
+[38.649s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/srv/Myimage_Response.msg
+[38.650s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/package_run_dependencies/server_demo
+[38.655s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/parent_prefix_path/server_demo
+[38.656s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/ament_prefix_path.sh
+[38.656s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/ament_prefix_path.dsv
+[38.660s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/path.sh
+[38.661s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/path.dsv
+[38.664s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.bash
+[38.665s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.sh
+[38.666s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.zsh
+[38.667s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.dsv
+[38.667s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/package.dsv
+[38.669s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/packages/server_demo
+[38.670s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_cExport.cmake
+[38.671s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_cExport-noconfig.cmake
+[38.675s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[38.675s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[38.679s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_cppExport.cmake
+[38.680s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[38.685s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[38.686s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cExport.cmake
+[38.691s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[38.692s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cExport.cmake
+[38.693s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cExport-noconfig.cmake
+[38.698s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cppExport.cmake
+[38.699s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[38.703s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cppExport.cmake
+[38.703s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[38.710s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_pyExport.cmake
+[38.710s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/export_server_demo__rosidl_generator_pyExport-noconfig.cmake
+[38.712s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/rosidl_cmake-extras.cmake
+[38.713s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.716s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.717s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[38.719s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/ament_cmake_export_targets-extras.cmake
+[38.721s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[38.724s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[38.726s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demoConfig.cmake
+[38.728s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demoConfig-version.cmake
+[38.729s] -- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/package.xml
+[38.753s] Invoked command in '/home/interstellar/face_detect/detect_ws/build/server_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/interstellar/face_detect/detect_ws/build/server_demo

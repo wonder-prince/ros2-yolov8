@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from server_demo/srv/Myimage.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module server_demo {
+  module srv {
+    struct Myimage_Request {
+      sensor_msgs::msg::Image client_image;
+    };
+    struct Myimage_Response {
+      sensor_msgs::msg::Image server_image;
+    };
+  };
+};

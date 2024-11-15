@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.007795] (server_demo) JobQueued: {'identifier': 'server_demo', 'dependencies': OrderedDict()}
+[0.008113] (server_demo) JobStarted: {'identifier': 'server_demo'}
+[0.092769] (server_demo) JobProgress: {'identifier': 'server_demo', 'progress': 'cmake'}
+[0.093098] (server_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/interstellar/face_detect/detect_ws/src/server_demo', '-DCMAKE_INSTALL_PREFIX=/home/interstellar/face_detect/detect_ws/install/server_demo'], 'cwd': '/home/interstellar/face_detect/detect_ws/build/server_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.132.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'interstellar'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.132.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/interstellar'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/interstellar/face_detect/detect_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1380'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.132.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'interstellar'), ('ALL_PROXY', 'socks://192.168.132.1:7890/'), ('http_proxy', 'http://192.168.132.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'interstellar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1355,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1355'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.132.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/209f9288_3a0c_4ecb_b090_21d22789e797'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H6X0W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ecaa86bd1e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/interstellar/face_detect/detect_ws/build/server_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.132.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.132.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.116976] (-) TimerEvent: {}
+[0.221025] (-) TimerEvent: {}
+[0.325068] (-) TimerEvent: {}
+[0.429919] (-) TimerEvent: {}
+[0.531630] (-) TimerEvent: {}
+[0.636886] (-) TimerEvent: {}
+[0.738881] (-) TimerEvent: {}
+[0.841068] (-) TimerEvent: {}
+[0.844097] (server_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.942618] (-) TimerEvent: {}
+[1.044626] (-) TimerEvent: {}
+[1.146013] (-) TimerEvent: {}
+[1.247733] (-) TimerEvent: {}
+[1.349819] (-) TimerEvent: {}
+[1.451496] (-) TimerEvent: {}
+[1.553822] (-) TimerEvent: {}
+[1.562067] (server_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.641984] (server_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.654732] (-) TimerEvent: {}
+[1.760036] (-) TimerEvent: {}
+[1.862087] (-) TimerEvent: {}
+[1.965713] (-) TimerEvent: {}
+[2.071927] (-) TimerEvent: {}
+[2.173929] (-) TimerEvent: {}
+[2.275695] (-) TimerEvent: {}
+[2.378126] (-) TimerEvent: {}
+[2.480114] (-) TimerEvent: {}
+[2.582083] (-) TimerEvent: {}
+[2.594582] (server_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.622616] (server_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.624762] (server_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.627740] (server_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.652558] (server_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.683606] (-) TimerEvent: {}
+[2.785526] (-) TimerEvent: {}
+[2.887142] (-) TimerEvent: {}
+[2.989814] (-) TimerEvent: {}
+[3.091112] (-) TimerEvent: {}
+[3.193116] (-) TimerEvent: {}
+[3.295736] (-) TimerEvent: {}
+[3.398562] (-) TimerEvent: {}
+[3.500203] (-) TimerEvent: {}
+[3.602660] (-) TimerEvent: {}
+[3.705602] (-) TimerEvent: {}
+[3.778091] (server_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.806943] (server_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.808022] (-) TimerEvent: {}
+[3.810530] (server_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.812682] (server_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.836522] (server_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.910082] (-) TimerEvent: {}
+[4.011701] (-) TimerEvent: {}
+[4.114403] (-) TimerEvent: {}
+[4.215972] (-) TimerEvent: {}
+[4.317902] (-) TimerEvent: {}
+[4.420900] (-) TimerEvent: {}
+[4.523789] (-) TimerEvent: {}
+[4.625692] (-) TimerEvent: {}
+[4.727749] (-) TimerEvent: {}
+[4.829818] (-) TimerEvent: {}
+[4.934869] (-) TimerEvent: {}
+[5.036410] (-) TimerEvent: {}
+[5.080098] (server_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.138577] (-) TimerEvent: {}
+[5.240129] (-) TimerEvent: {}
+[5.341967] (-) TimerEvent: {}
+[5.444112] (-) TimerEvent: {}
+[5.547535] (-) TimerEvent: {}
+[5.649625] (-) TimerEvent: {}
+[5.752004] (-) TimerEvent: {}
+[5.758565] (server_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.854079] (-) TimerEvent: {}
+[5.955923] (-) TimerEvent: {}
+[6.059834] (-) TimerEvent: {}
+[6.161465] (-) TimerEvent: {}
+[6.268068] (-) TimerEvent: {}
+[6.340117] (server_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.359754] (server_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.370012] (-) TimerEvent: {}
+[6.374477] (server_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.414729] (server_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[6.422094] (server_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/interstellar/face_detect/detect_ws/build/server_demo\n'}
+[6.471546] (-) TimerEvent: {}
+[6.478592] (server_demo) CommandEnded: {'returncode': 0}
+[6.480799] (server_demo) JobProgress: {'identifier': 'server_demo', 'progress': 'build'}
+[6.484056] (server_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/interstellar/face_detect/detect_ws/build/server_demo', '--', '-j4', '-l4'], 'cwd': '/home/interstellar/face_detect/detect_ws/build/server_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.132.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'interstellar'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.132.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/interstellar'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/interstellar/face_detect/detect_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1380'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.132.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'interstellar'), ('ALL_PROXY', 'socks://192.168.132.1:7890/'), ('http_proxy', 'http://192.168.132.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'interstellar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1355,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1355'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.132.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/209f9288_3a0c_4ecb_b090_21d22789e797'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H6X0W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ecaa86bd1e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/interstellar/face_detect/detect_ws/build/server_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.132.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.132.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.572022] (-) TimerEvent: {}
+[6.677880] (-) TimerEvent: {}
+[6.782638] (-) TimerEvent: {}
+[6.885585] (-) TimerEvent: {}
+[6.990648] (-) TimerEvent: {}
+[7.050078] (server_demo) CommandEnded: {'returncode': 0}
+[7.091886] (-) TimerEvent: {}
+[7.194947] (-) TimerEvent: {}
+[7.296527] (-) TimerEvent: {}
+[7.398556] (-) TimerEvent: {}
+[7.486810] (server_demo) JobProgress: {'identifier': 'server_demo', 'progress': 'install'}
+[7.499091] (-) TimerEvent: {}
+[7.604620] (server_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/interstellar/face_detect/detect_ws/build/server_demo'], 'cwd': '/home/interstellar/face_detect/detect_ws/build/server_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://192.168.132.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'interstellar'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://192.168.132.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/interstellar'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/interstellar/face_detect/detect_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1380'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.132.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'interstellar'), ('ALL_PROXY', 'socks://192.168.132.1:7890/'), ('http_proxy', 'http://192.168.132.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'interstellar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1355,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1355'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://192.168.132.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/209f9288_3a0c_4ecb_b090_21d22789e797'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H6X0W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ecaa86bd1e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/interstellar/face_detect/detect_ws/build/server_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://192.168.132.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.132.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.607477] (-) TimerEvent: {}
+[7.710224] (server_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.711097] (-) TimerEvent: {}
+[7.713067] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/package_run_dependencies/server_demo\n'}
+[7.717544] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/parent_prefix_path/server_demo\n'}
+[7.720837] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/ament_prefix_path.sh\n'}
+[7.725632] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/ament_prefix_path.dsv\n'}
+[7.727663] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/path.sh\n'}
+[7.729138] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/environment/path.dsv\n'}
+[7.730661] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.bash\n'}
+[7.734007] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.sh\n'}
+[7.734875] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.zsh\n'}
+[7.736571] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/local_setup.dsv\n'}
+[7.739080] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/package.dsv\n'}
+[7.742543] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/ament_index/resource_index/packages/server_demo\n'}
+[7.744482] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demoConfig.cmake\n'}
+[7.745744] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/cmake/server_demoConfig-version.cmake\n'}
+[7.752944] (server_demo) StdoutLine: {'line': b'-- Installing: /home/interstellar/face_detect/detect_ws/install/server_demo/share/server_demo/package.xml\n'}
+[7.775552] (server_demo) CommandEnded: {'returncode': 0}
+[7.819385] (-) TimerEvent: {}
+[7.921984] (-) TimerEvent: {}
+[8.023686] (-) TimerEvent: {}
+[8.125100] (-) TimerEvent: {}
+[8.229502] (-) TimerEvent: {}
+[8.332539] (-) TimerEvent: {}
+[8.364624] (server_demo) JobEnded: {'identifier': 'server_demo', 'rc': 0}
+[8.372458] (-) EventReactorShutdown: {}

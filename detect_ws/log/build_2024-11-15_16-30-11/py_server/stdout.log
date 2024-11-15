@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/py_server/py_server.egg-info
+writing ../../build/py_server/py_server.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_server/py_server.egg-info/dependency_links.txt
+writing entry points to ../../build/py_server/py_server.egg-info/entry_points.txt
+writing requirements to ../../build/py_server/py_server.egg-info/requires.txt
+writing top-level names to ../../build/py_server/py_server.egg-info/top_level.txt
+writing manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/interstellar/face_detect/detect_ws/build/py_server/build
+creating /home/interstellar/face_detect/detect_ws/build/py_server/build/lib
+creating /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server
+copying py_server/__init__.py -> /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server
+copying py_server/server_py.py -> /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server
+copying py_server/client_py.py -> /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server
+running install
+running install_lib
+creating /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server
+copying /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server/__init__.py -> /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server
+copying /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server/server_py.py -> /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server
+copying /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server/client_py.py -> /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server
+byte-compiling /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server/server_py.py to server_py.cpython-310.pyc
+byte-compiling /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server/client_py.py to client_py.cpython-310.pyc
+running install_data
+creating /home/interstellar/face_detect/detect_ws/install/py_server/share/ament_index
+creating /home/interstellar/face_detect/detect_ws/install/py_server/share/ament_index/resource_index
+creating /home/interstellar/face_detect/detect_ws/install/py_server/share/ament_index/resource_index/packages
+copying resource/py_server -> /home/interstellar/face_detect/detect_ws/install/py_server/share/ament_index/resource_index/packages
+copying package.xml -> /home/interstellar/face_detect/detect_ws/install/py_server/share/py_server
+running install_egg_info
+Copying ../../build/py_server/py_server.egg-info to /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/interstellar/face_detect/detect_ws/build/py_server/install.log'
