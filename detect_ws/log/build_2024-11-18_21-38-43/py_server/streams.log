@@ -1,0 +1,28 @@
+[1.633s] Invoking command in '/home/interstellar/face_detect/detect_ws/src/py_server': CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service PYTHONPATH=/home/interstellar/face_detect/detect_ws/build/py_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_server build --build-base /home/interstellar/face_detect/detect_ws/build/py_server/build install --record /home/interstellar/face_detect/detect_ws/build/py_server/install.log --single-version-externally-managed install_data
+[2.250s] running egg_info
+[2.252s] writing ../../build/py_server/py_server.egg-info/PKG-INFO
+[2.254s] writing dependency_links to ../../build/py_server/py_server.egg-info/dependency_links.txt
+[2.255s] writing entry points to ../../build/py_server/py_server.egg-info/entry_points.txt
+[2.255s] writing requirements to ../../build/py_server/py_server.egg-info/requires.txt
+[2.256s] writing top-level names to ../../build/py_server/py_server.egg-info/top_level.txt
+[2.262s] reading manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'
+[2.265s] writing manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'
+[2.265s] running build
+[2.266s] running build_py
+[2.266s] copying py_server/server_py.py -> /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server
+[2.268s] copying py_server/client_py.py -> /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server
+[2.268s] running install
+[2.268s] running install_lib
+[2.270s] copying /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server/server_py.py -> /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server
+[2.273s] copying /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server/client_py.py -> /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server
+[2.273s] byte-compiling /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server/server_py.py to server_py.cpython-310.pyc
+[2.274s] byte-compiling /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server/client_py.py to client_py.cpython-310.pyc
+[2.275s] running install_data
+[2.276s] running install_egg_info
+[2.280s] removing '/home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server-0.0.0-py3.10.egg-info' (and everything under it)
+[2.281s] Copying ../../build/py_server/py_server.egg-info to /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server-0.0.0-py3.10.egg-info
+[2.283s] running install_scripts
+[2.335s] Installing client_py script to /home/interstellar/face_detect/detect_ws/install/py_server/lib/py_server
+[2.335s] Installing server_py script to /home/interstellar/face_detect/detect_ws/install/py_server/lib/py_server
+[2.337s] writing list of installed files to '/home/interstellar/face_detect/detect_ws/build/py_server/install.log'
+[2.388s] Invoked command in '/home/interstellar/face_detect/detect_ws/src/py_server' returned '0': CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service PYTHONPATH=/home/interstellar/face_detect/detect_ws/build/py_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_server build --build-base /home/interstellar/face_detect/detect_ws/build/py_server/build install --record /home/interstellar/face_detect/detect_ws/build/py_server/install.log --single-version-externally-managed install_data

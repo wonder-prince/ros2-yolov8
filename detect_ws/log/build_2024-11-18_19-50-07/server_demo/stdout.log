@@ -1,0 +1,3 @@
+[  3%] Built target server_demo__cpp
+[  3%] Built target ament_cmake_python_copy_server_demo
+[ 12%] Built target server_demo__rosidl_generator_c

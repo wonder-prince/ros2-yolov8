@@ -1,0 +1,14 @@
+[0.052s] Invoking command in '/home/interstellar/face_detect/detect_ws/build/server_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/interstellar/face_detect/detect_ws/build/server_demo -- -j4 -l4
+[0.369s] [  3%] Built target server_demo__cpp
+[0.413s] [  3%] Built target ament_cmake_python_copy_server_demo
+[0.442s] [ 12%] Built target server_demo__rosidl_generator_c
+[0.476s] gmake[2]: *** [CMakeFiles/server_demo__rosidl_typesupport_introspection_cpp.dir/build.make:222: CMakeFiles/server_demo__rosidl_typesupport_introspection_cpp.dir/depend] 中断
+[0.477s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/server_demo__rosidl_typesupport_cpp.dir/all] 中断
+[0.477s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/server_demo__rosidl_typesupport_fastrtps_cpp.dir/all] 中断
+[0.477s] gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/server_demo__rosidl_typesupport_introspection_cpp.dir/all] 中断
+[0.478s] gmake[2]: *** wait: 没有子进程。 停止。
+[0.478s] gmake[2]: *** 正在等待未完成的任务....
+[0.480s] gmake[2]: *** wait: 没有子进程。 停止。
+[0.480s] gmake[1]: *** [CMakeFiles/Makefile2:446：CMakeFiles/ament_cmake_python_build_server_demo_egg.dir/all] 错误 2
+[0.480s] gmake: *** [Makefile:146: all] 中断
+[0.487s] Invoked command in '/home/interstellar/face_detect/detect_ws/build/server_demo' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/interstellar/face_detect/detect_ws/build/server_demo -- -j4 -l4

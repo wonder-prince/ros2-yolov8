@@ -1,0 +1,12 @@
+[  3%] Built target server_demo__cpp
+[  3%] Built target ament_cmake_python_copy_server_demo
+[ 12%] Built target server_demo__rosidl_generator_c
+gmake[2]: *** [CMakeFiles/server_demo__rosidl_typesupport_introspection_cpp.dir/build.make:222: CMakeFiles/server_demo__rosidl_typesupport_introspection_cpp.dir/depend] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/server_demo__rosidl_typesupport_cpp.dir/all] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/server_demo__rosidl_typesupport_fastrtps_cpp.dir/all] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/server_demo__rosidl_typesupport_introspection_cpp.dir/all] 中断
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:446：CMakeFiles/ament_cmake_python_build_server_demo_egg.dir/all] 错误 2
+gmake: *** [Makefile:146: all] 中断

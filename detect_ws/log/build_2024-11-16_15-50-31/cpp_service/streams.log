@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/interstellar/face_detect/detect_ws/build/cpp_service': AMENT_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/interstellar/face_detect/detect_ws/build/cpp_service -- -j4 -l4
+[0.216s] [35m[1mConsolidate compiler generated dependencies of target client_cpp[0m
+[0.216s] [35m[1mConsolidate compiler generated dependencies of target server_cpp[0m
+[0.333s] [ 50%] Built target server_cpp
+[0.339s] [100%] Built target client_cpp
+[0.376s] Invoked command in '/home/interstellar/face_detect/detect_ws/build/cpp_service' returned '0': AMENT_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/interstellar/face_detect/detect_ws/build/cpp_service -- -j4 -l4
+[0.462s] Invoking command in '/home/interstellar/face_detect/detect_ws/build/cpp_service': AMENT_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/interstellar/face_detect/detect_ws/build/cpp_service
+[0.464s] -- Install configuration: ""
+[0.473s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/lib/cpp_service/client_cpp
+[0.490s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/lib/cpp_service/server_cpp
+[0.490s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/ament_index/resource_index/package_run_dependencies/cpp_service
+[0.490s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/ament_index/resource_index/parent_prefix_path/cpp_service
+[0.490s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/ament_prefix_path.sh
+[0.490s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/ament_prefix_path.dsv
+[0.490s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/path.sh
+[0.490s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/environment/path.dsv
+[0.490s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.bash
+[0.491s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.sh
+[0.491s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.zsh
+[0.491s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/local_setup.dsv
+[0.491s] -- Installing: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/package.dsv
+[0.491s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/ament_index/resource_index/packages/cpp_service
+[0.491s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig.cmake
+[0.491s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig-version.cmake
+[0.491s] -- Up-to-date: /home/interstellar/face_detect/detect_ws/install/cpp_service/share/cpp_service/package.xml
+[0.494s] Invoked command in '/home/interstellar/face_detect/detect_ws/build/cpp_service' returned '0': AMENT_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/interstellar/face_detect/detect_ws/install/server_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/interstellar/face_detect/detect_ws/build/cpp_service
