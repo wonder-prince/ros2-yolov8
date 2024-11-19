@@ -1,0 +1,25 @@
+[1.739s] Invoking command in '/home/interstellar/face_detect/detect_ws/src/py_server': CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service PYTHONPATH=/home/interstellar/face_detect/detect_ws/build/py_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_server build --build-base /home/interstellar/face_detect/detect_ws/build/py_server/build install --record /home/interstellar/face_detect/detect_ws/build/py_server/install.log --single-version-externally-managed install_data
+[2.412s] running egg_info
+[2.412s] writing ../../build/py_server/py_server.egg-info/PKG-INFO
+[2.413s] writing dependency_links to ../../build/py_server/py_server.egg-info/dependency_links.txt
+[2.414s] writing entry points to ../../build/py_server/py_server.egg-info/entry_points.txt
+[2.415s] writing requirements to ../../build/py_server/py_server.egg-info/requires.txt
+[2.416s] writing top-level names to ../../build/py_server/py_server.egg-info/top_level.txt
+[2.421s] reading manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'
+[2.423s] writing manifest file '../../build/py_server/py_server.egg-info/SOURCES.txt'
+[2.424s] running build
+[2.424s] running build_py
+[2.424s] copying py_server/client_py.py -> /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server
+[2.424s] running install
+[2.426s] running install_lib
+[2.427s] copying /home/interstellar/face_detect/detect_ws/build/py_server/build/lib/py_server/client_py.py -> /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server
+[2.429s] byte-compiling /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server/client_py.py to client_py.cpython-310.pyc
+[2.432s] running install_data
+[2.432s] running install_egg_info
+[2.438s] removing '/home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server-0.0.0-py3.10.egg-info' (and everything under it)
+[2.442s] Copying ../../build/py_server/py_server.egg-info to /home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages/py_server-0.0.0-py3.10.egg-info
+[2.443s] running install_scripts
+[2.503s] Installing client_py script to /home/interstellar/face_detect/detect_ws/install/py_server/lib/py_server
+[2.503s] Installing server_py script to /home/interstellar/face_detect/detect_ws/install/py_server/lib/py_server
+[2.504s] writing list of installed files to '/home/interstellar/face_detect/detect_ws/build/py_server/install.log'
+[2.559s] Invoked command in '/home/interstellar/face_detect/detect_ws/src/py_server' returned '0': CMAKE_PREFIX_PATH=/home/interstellar/face_detect/detect_ws/install/server_demo:/home/interstellar/face_detect/detect_ws/install/cpp_service PYTHONPATH=/home/interstellar/face_detect/detect_ws/build/py_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/interstellar/face_detect/detect_ws/install/py_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_server build --build-base /home/interstellar/face_detect/detect_ws/build/py_server/build install --record /home/interstellar/face_detect/detect_ws/build/py_server/install.log --single-version-externally-managed install_data

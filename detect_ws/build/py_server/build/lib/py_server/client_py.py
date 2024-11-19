@@ -30,9 +30,9 @@ class MinimalClient(Node):
 
 def main():
     rclpy.init()
-    minimal_client = MinimalClient()
+    minimal_client = MinimalClient()#创建的节点
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(2)
     if not cap.isOpened():
         minimal_client.get_logger().error("无法打开摄像头。")
         return
@@ -51,17 +51,16 @@ def main():
         if minimal_client.future.done():
             try:
                 response = minimal_client.future.result()
-                minimal_client.get_logger().info("成功接收到服务端的响应！")
-                # 将响应的图像消息转换为 OpenCV 格式并显示
-                processed_frame = minimal_client.bridge.imgmsg_to_cv2(response.server_image, "bgr8")
-                cv2.imshow("Processed Frame", processed_frame)
-
-            except CvBridgeError as e:
-                minimal_client.get_logger().error(f"Failed to process response image: {e}")
+                # 检查服务端返回的响应内容
+                if response.server_image:
+                    minimal_client.get_logger().info("成功接收到服务端的响应！")
+                    processed_frame = minimal_client.bridge.imgmsg_to_cv2(response.server_image, "bgr8")
+                    cv2.imshow("Processed Frame", processed_frame)
+                else:
+                    minimal_client.get_logger().error("服务端响应的图像为空！")
             except Exception as e:
-                minimal_client.get_logger().error(f"服务处理失败：{e}")
-        else:
-            minimal_client.get_logger().info("未接收到服务端的响应！")
+                minimal_client.get_logger().error(f"获取服务端响应失败：{e}")
+        
             
         # 按 'q' 键退出
         if cv2.waitKey(1) & 0xFF == ord('q'):
