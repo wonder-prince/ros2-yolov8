@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/niluo_topic/niluo_topic.egg-info/PKG-INFO
+writing dependency_links to ../../build/niluo_topic/niluo_topic.egg-info/dependency_links.txt
+writing entry points to ../../build/niluo_topic/niluo_topic.egg-info/entry_points.txt
+writing requirements to ../../build/niluo_topic/niluo_topic.egg-info/requires.txt
+writing top-level names to ../../build/niluo_topic/niluo_topic.egg-info/top_level.txt
+reading manifest file '../../build/niluo_topic/niluo_topic.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/niluo_topic/niluo_topic.egg-info/SOURCES.txt'
+running build
+running build_py
+copying niluo_topic/student.py -> /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic
+copying niluo_topic/niluo.py -> /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic
+running install
+running install_lib
+copying /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic/student.py -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic
+copying /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic/niluo.py -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic
+byte-compiling /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic/student.py to student.cpython-310.pyc
+byte-compiling /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic/niluo.py to niluo.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/niluo_topic/niluo_topic.egg-info to /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic-0.0.0-py3.10.egg-info
+running install_scripts
+Installing niluo script to /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/niluo_topic
+Installing student script to /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/niluo_topic
+writing list of installed files to '/home/interstellar/face_detect/detect_ws/build/niluo_topic/install.log'

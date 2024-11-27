@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000622] (-) JobUnselected: {'identifier': 'cpp_service'}
+[0.001754] (-) JobUnselected: {'identifier': 'py_server'}
+[0.002188] (-) JobUnselected: {'identifier': 'server_demo'}
+[0.002306] (niluo_topic) JobQueued: {'identifier': 'niluo_topic', 'dependencies': OrderedDict()}
+[0.002364] (niluo_topic) JobStarted: {'identifier': 'niluo_topic'}
+[0.097083] (-) TimerEvent: {}
+[0.199038] (-) TimerEvent: {}
+[0.300681] (-) TimerEvent: {}
+[0.401409] (-) TimerEvent: {}
+[0.502769] (-) TimerEvent: {}
+[0.605120] (-) TimerEvent: {}
+[0.705998] (-) TimerEvent: {}
+[0.806821] (-) TimerEvent: {}
+[0.908537] (-) TimerEvent: {}
+[1.009459] (-) TimerEvent: {}
+[1.110475] (-) TimerEvent: {}
+[1.211592] (-) TimerEvent: {}
+[1.312968] (-) TimerEvent: {}
+[1.413922] (-) TimerEvent: {}
+[1.514538] (-) TimerEvent: {}
+[1.617910] (-) TimerEvent: {}
+[1.718634] (-) TimerEvent: {}
+[1.725026] (niluo_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/niluo_topic', 'build', '--build-base', '/home/interstellar/face_detect/detect_ws/build/niluo_topic/build', 'install', '--record', '/home/interstellar/face_detect/detect_ws/build/niluo_topic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/interstellar/face_detect/detect_ws/src/niluo_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://192.168.132.1:7890/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'LANGUAGE': 'zh_CN:en', 'USER': 'interstellar', 'LC_TIME': 'zh_CN.UTF-8', 'all_proxy': 'socks://192.168.132.1:7890/', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/interstellar', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/interstellar/face_detect', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1396', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://192.168.132.1:7890/', 'ROS_DISTRO': 'humble', 'LOGNAME': 'interstellar', 'ALL_PROXY': 'socks://192.168.132.1:7890/', 'http_proxy': 'http://192.168.132.1:7890/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'interstellar', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/interstellar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/interstellar-virtual-machine:@/tmp/.ICE-unix/1352,unix/interstellar-virtual-machine:/tmp/.ICE-unix/1352', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'ftp_proxy': 'http://192.168.132.1:7890/', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fe64cb0d_2416_4ca0_acd7_866758b1d8e2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W1ZZX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ecaa86bd1e.sock', 'GNOME_TERMINAL_SERVICE': ':1.95', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/interstellar/face_detect/detect_ws/build/niluo_topic', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'FTP_PROXY': 'http://192.168.132.1:7890/', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/interstellar/face_detect/detect_ws/build/niluo_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HTTP_PROXY': 'http://192.168.132.1:7890/', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.818784] (-) TimerEvent: {}
+[1.919330] (-) TimerEvent: {}
+[2.020008] (-) TimerEvent: {}
+[2.120576] (-) TimerEvent: {}
+[2.221282] (-) TimerEvent: {}
+[2.323679] (-) TimerEvent: {}
+[2.341768] (niluo_topic) StdoutLine: {'line': b'running egg_info\n'}
+[2.342386] (niluo_topic) StdoutLine: {'line': b'creating ../../build/niluo_topic/niluo_topic.egg-info\n'}
+[2.342593] (niluo_topic) StdoutLine: {'line': b'writing ../../build/niluo_topic/niluo_topic.egg-info/PKG-INFO\n'}
+[2.342816] (niluo_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/niluo_topic/niluo_topic.egg-info/dependency_links.txt\n'}
+[2.343706] (niluo_topic) StdoutLine: {'line': b'writing entry points to ../../build/niluo_topic/niluo_topic.egg-info/entry_points.txt\n'}
+[2.344022] (niluo_topic) StdoutLine: {'line': b'writing requirements to ../../build/niluo_topic/niluo_topic.egg-info/requires.txt\n'}
+[2.344290] (niluo_topic) StdoutLine: {'line': b'writing top-level names to ../../build/niluo_topic/niluo_topic.egg-info/top_level.txt\n'}
+[2.344455] (niluo_topic) StdoutLine: {'line': b"writing manifest file '../../build/niluo_topic/niluo_topic.egg-info/SOURCES.txt'\n"}
+[2.348601] (niluo_topic) StdoutLine: {'line': b"reading manifest file '../../build/niluo_topic/niluo_topic.egg-info/SOURCES.txt'\n"}
+[2.349553] (niluo_topic) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.351784] (niluo_topic) StdoutLine: {'line': b"writing manifest file '../../build/niluo_topic/niluo_topic.egg-info/SOURCES.txt'\n"}
+[2.352062] (niluo_topic) StdoutLine: {'line': b'running build\n'}
+[2.352242] (niluo_topic) StdoutLine: {'line': b'running build_py\n'}
+[2.352416] (niluo_topic) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/build/niluo_topic/build\n'}
+[2.352555] (niluo_topic) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib\n'}
+[2.352688] (niluo_topic) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic\n'}
+[2.352822] (niluo_topic) StdoutLine: {'line': b'copying niluo_topic/__init__.py -> /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic\n'}
+[2.352954] (niluo_topic) StdoutLine: {'line': b'copying niluo_topic/student.py -> /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic\n'}
+[2.353180] (niluo_topic) StdoutLine: {'line': b'copying niluo_topic/niluo.py -> /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic\n'}
+[2.353352] (niluo_topic) StdoutLine: {'line': b'running install\n'}
+[2.353486] (niluo_topic) StdoutLine: {'line': b'running install_lib\n'}
+[2.354462] (niluo_topic) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic\n'}
+[2.355292] (niluo_topic) StdoutLine: {'line': b'copying /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic/__init__.py -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic\n'}
+[2.355496] (niluo_topic) StdoutLine: {'line': b'copying /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic/student.py -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic\n'}
+[2.355787] (niluo_topic) StdoutLine: {'line': b'copying /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic/niluo.py -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic\n'}
+[2.359379] (niluo_topic) StdoutLine: {'line': b'byte-compiling /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic/__init__.py to __init__.cpython-310.pyc\n'}
+[2.359638] (niluo_topic) StdoutLine: {'line': b'byte-compiling /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic/student.py to student.cpython-310.pyc\n'}
+[2.361408] (niluo_topic) StdoutLine: {'line': b'byte-compiling /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic/niluo.py to niluo.cpython-310.pyc\n'}
+[2.362867] (niluo_topic) StdoutLine: {'line': b'running install_data\n'}
+[2.363416] (niluo_topic) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/install/niluo_topic/share/ament_index\n'}
+[2.363661] (niluo_topic) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/install/niluo_topic/share/ament_index/resource_index\n'}
+[2.363870] (niluo_topic) StdoutLine: {'line': b'creating /home/interstellar/face_detect/detect_ws/install/niluo_topic/share/ament_index/resource_index/packages\n'}
+[2.364010] (niluo_topic) StdoutLine: {'line': b'copying resource/niluo_topic -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/share/ament_index/resource_index/packages\n'}
+[2.364146] (niluo_topic) StdoutLine: {'line': b'copying package.xml -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/share/niluo_topic\n'}
+[2.364328] (niluo_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.368410] (niluo_topic) StdoutLine: {'line': b'Copying ../../build/niluo_topic/niluo_topic.egg-info to /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic-0.0.0-py3.10.egg-info\n'}
+[2.370774] (niluo_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[2.420936] (niluo_topic) StdoutLine: {'line': b'Installing niluo script to /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/niluo_topic\n'}
+[2.421826] (niluo_topic) StdoutLine: {'line': b'Installing student script to /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/niluo_topic\n'}
+[2.422705] (niluo_topic) StdoutLine: {'line': b"writing list of installed files to '/home/interstellar/face_detect/detect_ws/build/niluo_topic/install.log'\n"}
+[2.424133] (-) TimerEvent: {}
+[2.468488] (niluo_topic) CommandEnded: {'returncode': 0}
+[2.514386] (niluo_topic) JobEnded: {'identifier': 'niluo_topic', 'rc': 0}
+[2.516480] (-) EventReactorShutdown: {}

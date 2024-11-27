@@ -1,0 +1,4 @@
+[console_scripts]
+niluo = niluo_topic.niluo:main
+student = niluo_topic.student:main
+

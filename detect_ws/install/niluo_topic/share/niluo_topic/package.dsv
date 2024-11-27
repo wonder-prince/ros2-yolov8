@@ -1,0 +1,6 @@
+source;share/niluo_topic/hook/pythonpath.ps1
+source;share/niluo_topic/hook/pythonpath.dsv
+source;share/niluo_topic/hook/pythonpath.sh
+source;share/niluo_topic/hook/ament_prefix_path.ps1
+source;share/niluo_topic/hook/ament_prefix_path.dsv
+source;share/niluo_topic/hook/ament_prefix_path.sh

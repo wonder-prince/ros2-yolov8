@@ -1,0 +1,42 @@
+[1.724s] Invoking command in '/home/interstellar/face_detect/detect_ws/src/niluo_topic': PYTHONPATH=/home/interstellar/face_detect/detect_ws/build/niluo_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/niluo_topic build --build-base /home/interstellar/face_detect/detect_ws/build/niluo_topic/build install --record /home/interstellar/face_detect/detect_ws/build/niluo_topic/install.log --single-version-externally-managed install_data
+[2.340s] running egg_info
+[2.340s] creating ../../build/niluo_topic/niluo_topic.egg-info
+[2.340s] writing ../../build/niluo_topic/niluo_topic.egg-info/PKG-INFO
+[2.341s] writing dependency_links to ../../build/niluo_topic/niluo_topic.egg-info/dependency_links.txt
+[2.342s] writing entry points to ../../build/niluo_topic/niluo_topic.egg-info/entry_points.txt
+[2.342s] writing requirements to ../../build/niluo_topic/niluo_topic.egg-info/requires.txt
+[2.342s] writing top-level names to ../../build/niluo_topic/niluo_topic.egg-info/top_level.txt
+[2.342s] writing manifest file '../../build/niluo_topic/niluo_topic.egg-info/SOURCES.txt'
+[2.346s] reading manifest file '../../build/niluo_topic/niluo_topic.egg-info/SOURCES.txt'
+[2.347s] adding license file 'LICENSE'
+[2.350s] writing manifest file '../../build/niluo_topic/niluo_topic.egg-info/SOURCES.txt'
+[2.350s] running build
+[2.350s] running build_py
+[2.350s] creating /home/interstellar/face_detect/detect_ws/build/niluo_topic/build
+[2.350s] creating /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib
+[2.350s] creating /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic
+[2.351s] copying niluo_topic/__init__.py -> /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic
+[2.351s] copying niluo_topic/student.py -> /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic
+[2.351s] copying niluo_topic/niluo.py -> /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic
+[2.351s] running install
+[2.351s] running install_lib
+[2.352s] creating /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic
+[2.353s] copying /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic/__init__.py -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic
+[2.353s] copying /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic/student.py -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic
+[2.353s] copying /home/interstellar/face_detect/detect_ws/build/niluo_topic/build/lib/niluo_topic/niluo.py -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic
+[2.357s] byte-compiling /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic/__init__.py to __init__.cpython-310.pyc
+[2.357s] byte-compiling /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic/student.py to student.cpython-310.pyc
+[2.359s] byte-compiling /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic/niluo.py to niluo.cpython-310.pyc
+[2.361s] running install_data
+[2.361s] creating /home/interstellar/face_detect/detect_ws/install/niluo_topic/share/ament_index
+[2.361s] creating /home/interstellar/face_detect/detect_ws/install/niluo_topic/share/ament_index/resource_index
+[2.362s] creating /home/interstellar/face_detect/detect_ws/install/niluo_topic/share/ament_index/resource_index/packages
+[2.362s] copying resource/niluo_topic -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/share/ament_index/resource_index/packages
+[2.362s] copying package.xml -> /home/interstellar/face_detect/detect_ws/install/niluo_topic/share/niluo_topic
+[2.362s] running install_egg_info
+[2.366s] Copying ../../build/niluo_topic/niluo_topic.egg-info to /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages/niluo_topic-0.0.0-py3.10.egg-info
+[2.369s] running install_scripts
+[2.419s] Installing niluo script to /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/niluo_topic
+[2.420s] Installing student script to /home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/niluo_topic
+[2.421s] writing list of installed files to '/home/interstellar/face_detect/detect_ws/build/niluo_topic/install.log'
+[2.467s] Invoked command in '/home/interstellar/face_detect/detect_ws/src/niluo_topic' returned '0': PYTHONPATH=/home/interstellar/face_detect/detect_ws/build/niluo_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/interstellar/face_detect/detect_ws/install/niluo_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/niluo_topic build --build-base /home/interstellar/face_detect/detect_ws/build/niluo_topic/build install --record /home/interstellar/face_detect/detect_ws/build/niluo_topic/install.log --single-version-externally-managed install_data
